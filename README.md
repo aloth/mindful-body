@@ -67,6 +67,65 @@ Most body trackers just log weight. Mindful Body goes deeper — it tracks your 
 - **English & German** — Fully localized with 325+ translated strings
 - **More languages coming soon**
 
+## Screenshots
+
+<table>
+<tr>
+<td width="50%">
+
+### Your Complete Dashboard
+Weight, body fat, BMI, muscle mass — all your key metrics at a glance with trend charts and goal-aware color coding.
+
+<img src="screenshots/01-dashboard.png" alt="Mindful Body Dashboard showing weight, body fat, BMI tracking with trend charts and goals" width="400"/>
+
+</td>
+<td width="50%">
+
+### Beautiful in Dark Mode
+Designed for day and night with a stunning dark theme that's easy on the eyes.
+
+<img src="screenshots/02-dashboard-dark.png" alt="Mindful Body Dashboard in Dark Mode" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### Insights That Matter
+Track streaks, view weekly and monthly averages, and get science-backed insights into your body composition changes.
+
+<img src="screenshots/03-insights.png" alt="Mindful Body Insights showing body composition analysis and logging streaks" width="400"/>
+
+</td>
+<td width="50%">
+
+### Log Everything
+Weight, body fat, muscle mass, BMR, visceral fat, and circumferences — all in one streamlined form.
+
+<img src="screenshots/04-log.png" alt="Mindful Body Log view for tracking weight, body composition, and circumferences" width="400"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### Visual Progress
+Capture your transformation with Face ID-protected progress photos organized by pose.
+
+<img src="screenshots/05-progress.png" alt="Mindful Body Progress Photos with Face ID protection" width="400"/>
+
+</td>
+<td width="50%">
+
+### Set Goals, Stay Motivated
+Track progress toward your targets with visual indicators and achievement celebrations.
+
+<img src="screenshots/06-goals.png" alt="Mindful Body Goals showing target tracking and achievements" width="400"/>
+
+</td>
+</tr>
+</table>
+
 ## Privacy
 
 Mindful Body takes your privacy seriously:

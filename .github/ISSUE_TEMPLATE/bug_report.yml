@@ -1,0 +1,36 @@
+name: "Bug Report \U0001F41B"
+description: Report a bug in Mindful Body
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: A clear description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Tap on '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What you expected to happen.
+  - type: input
+    id: version
+    attributes:
+      label: App Version
+      placeholder: e.g. 5.5.1
+  - type: input
+    id: device
+    attributes:
+      label: Device & iOS Version
+      placeholder: e.g. iPhone 16 Pro, iOS 18.4

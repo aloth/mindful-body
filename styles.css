@@ -455,51 +455,40 @@ body {
     background: var(--color-bg-alt);
 }
 
-.screenshots-gallery {
+.screenshots-coming-soon {
     display: flex;
-    gap: 24px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    padding: 20px 0 40px;
-    -webkit-overflow-scrolling: touch;
+    justify-content: center;
 }
 
-.screenshots-gallery::-webkit-scrollbar {
-    height: 8px;
-}
-
-.screenshots-gallery::-webkit-scrollbar-track {
-    background: var(--color-border);
-    border-radius: 4px;
-}
-
-.screenshots-gallery::-webkit-scrollbar-thumb {
-    background: var(--color-primary);
-    border-radius: 4px;
-}
-
-.screenshot-item {
-    flex: 0 0 auto;
-    scroll-snap-align: center;
-    text-align: center;
-}
-
-.screenshot-item img {
-    width: 280px;
-    height: auto;
+.coming-soon-card {
+    background: white;
     border-radius: var(--radius-lg);
-    transition: transform 0.3s ease;
+    padding: 64px 48px;
+    text-align: center;
+    max-width: 560px;
+    width: 100%;
+    border: 2px solid var(--color-border);
+    box-shadow: var(--shadow-md);
 }
 
-.screenshot-item img:hover {
-    transform: scale(1.03);
+.coming-soon-icon {
+    font-size: 72px;
+    margin-bottom: 24px;
+    display: block;
 }
 
-.screenshot-caption {
-    margin-top: 12px;
-    font-size: 15px;
-    font-weight: 600;
+.coming-soon-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--color-text);
+}
+
+.coming-soon-description {
+    font-size: 18px;
     color: var(--color-text-light);
+    margin-bottom: 32px;
+    line-height: 1.6;
 }
 
 /* FAQ Section */
@@ -822,8 +811,8 @@ body {
         justify-content: center;
     }
     
-    .screenshot-item img {
-        width: 220px;
+    .coming-soon-card {
+        padding: 40px 24px;
     }
     
     .hero-graphic {

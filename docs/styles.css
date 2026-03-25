@@ -275,13 +275,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    min-width: 0;
 }
 
 .hero-image {
-    width: 100%;
-    max-width: 560px;
+    display: block;
+    max-width: 100%;
+    width: 560px;
+    height: auto;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
+    object-fit: cover;
 }
 
 .hero-graphic {

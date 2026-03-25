@@ -5,6 +5,10 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS_17+-lightgrey?logo=apple)](https://developer.apple.com/ios/)
 [![GitHub stars](https://img.shields.io/github/stars/aloth/mindful-body?style=social)](https://github.com/aloth/mindful-body/stargazers)
 
+<p align="center">
+  <img src="assets/images/mindful-body-body-composition-tracker-hero.jpg" alt="Mindful Body — body composition tracking with HealthKit, iCloud sync, and progress photos" width="700">
+</p>
+
 **Track your body composition journey with clarity and confidence.**
 
 Mindful Body is a beautifully designed iOS app for tracking weight, body fat, muscle mass, circumferences, and more. Set goals, capture progress photos, and gain data-driven insights — all with full Apple Health integration and iCloud sync across your devices.

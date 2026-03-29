@@ -1,3 +1,5 @@
+🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 **日本語** | 🇨🇳 [中文](FAQ_zh-Hans.md)
+
 # よくある質問
 
 ## 一般

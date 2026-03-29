@@ -6,10 +6,13 @@
 Mindful Body ist eine iOS-App zur Verfolgung deiner Körperzusammensetzung — Gewicht, Körperfett, Muskelmasse, Umfänge und mehr. Die App bietet datenbasierte Einblicke und Fortschrittsverfolgung, um dir zu helfen, deine Gesundheitsziele zu erreichen.
 
 ### Ist Mindful Body kostenlos?
-Mindful Body bietet eine 7-tägige kostenlose Testphase. Danach kannst du monatlich (1,99 $/Monat), jährlich (9,99 $/Jahr) oder einmalig mit lebenslangem Zugang (19,99 $) abonnieren.
+Mindful Body bietet eine 7-tägige kostenlose Testphase. Danach kannst du ein Abonnement abschließen oder einen einmaligen Lifetime-Kauf tätigen.
 
 ### Welche Geräte unterstützt Mindful Body?
 Mindful Body läuft auf iPhone und iPad mit iOS 17 oder neuer.
+
+### Welche Sprachen unterstützt die App?
+Mindful Body ist vollständig in 6 Sprachen lokalisiert: Englisch, Deutsch, Spanisch, Französisch, Japanisch und Chinesisch (Vereinfacht).
 
 ## Tracking
 
@@ -28,6 +31,17 @@ Nein. Du kannst alle Messungen manuell eingeben. Wenn du eine smarte Waage verwe
 ### Kann ich meine bestehenden Gewichtsdaten importieren?
 Ja! Mindful Body kann bis zu 365 Tage Gewichtsverlauf aus Apple Health mit einem Tipp importieren.
 
+## Nahrungsergänzung
+
+### Wie tracke ich Nahrungsergänzungsmittel?
+Öffne den Bereich „Nahrungsergänzung" und lege deine eigenen Supplements an (z. B. Protein, Kreatin, Vitamine) — mit einer Standarddosis. Danach kannst du die Einnahme mit einem Tipp erfassen oder eine individuelle Menge eingeben.
+
+### Kann ich mehrere Dosen pro Tag erfassen?
+Ja. Du kannst dasselbe Supplement mehrmals täglich eintragen. Die App zeigt dir die Gesamtmenge für den Tag im Dashboard an.
+
+### Werden Supplement-Einträge über iCloud synchronisiert?
+Ja. Supplement-Einträge werden wie Messungen und Ziele nahtlos über iCloud (CloudKit) zwischen deinen Geräten synchronisiert.
+
 ## Fortschrittsfotos
 
 ### Sind meine Fortschrittsfotos privat?
@@ -39,7 +53,7 @@ Ja, bei aktivierter iCloud-Synchronisierung werden Fotos sicher über CloudKit a
 ## iCloud-Synchronisierung
 
 ### Was wird über iCloud synchronisiert?
-Messungen, Ziele und Fortschrittsfotos werden über CloudKit zwischen deinen Apple-Geräten synchronisiert.
+Messungen, Ziele, Supplement-Einträge und Fortschrittsfotos werden über CloudKit zwischen deinen Apple-Geräten synchronisiert.
 
 ### Was bleibt auf meinem Gerät?
 Einstellungen, Präferenzen, HealthKit-Daten und der Abonnementstatus bleiben lokal.

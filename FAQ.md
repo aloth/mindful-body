@@ -6,10 +6,13 @@
 Mindful Body is an iOS app for tracking your body composition — weight, body fat, muscle mass, circumferences, and more. It provides data-driven insights and progress tracking to help you reach your health goals.
 
 ### Is Mindful Body free?
-Mindful Body offers a 7-day free trial. After that, you can subscribe monthly ($1.99/month), annually ($9.99/year), or purchase lifetime access ($19.99).
+Mindful Body offers a 7-day free trial. After that, you can continue with a subscription or lifetime purchase.
 
 ### What devices does Mindful Body support?
 Mindful Body runs on iPhone and iPad with iOS 17 or later.
+
+### What languages does the app support?
+Mindful Body is fully localized in 6 languages: English, German, Spanish, French, Japanese, and Chinese Simplified.
 
 ## Tracking
 
@@ -28,6 +31,17 @@ No. You can enter all measurements manually. However, if you use a smart scale t
 ### Can I import my existing weight data?
 Yes! Mindful Body can import up to 365 days of weight history from Apple Health in one tap.
 
+## Supplements
+
+### How do I track supplements?
+Go to the Supplements section to create your own supplements (e.g., protein, creatine, vitamins) with a default dose. Once set up, you can log your intake with a single tap — or enter a custom amount if needed.
+
+### Can I log multiple doses per day?
+Yes. You can log multiple doses of the same supplement throughout the day. The app displays your total intake for each supplement on the dashboard.
+
+### Do supplement logs sync via iCloud?
+Yes. Supplement logs sync seamlessly across your devices via iCloud (CloudKit), just like measurements and goals.
+
 ## Progress Photos
 
 ### Are my progress photos private?
@@ -39,7 +53,7 @@ Yes, when iCloud Sync is enabled, progress photos sync securely via CloudKit as 
 ## iCloud Sync
 
 ### What syncs via iCloud?
-Measurements, goals, and progress photos all sync across your Apple devices via CloudKit.
+Measurements, goals, supplement logs, and progress photos all sync across your Apple devices via CloudKit.
 
 ### What stays on my device?
 Settings, preferences, HealthKit data, and subscription status remain local.

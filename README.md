@@ -48,6 +48,14 @@ Most body trackers just log weight. Mindful Body goes deeper — it tracks your 
 - **Before & After** — Visual progress tracking alongside your measurements
 - **iCloud Sync** — Photos sync securely across your devices via CloudKit
 
+### 💊 Supplement Tracking
+
+- **Custom Supplements** — Create your own (protein, creatine, vitamins, etc.) with default doses
+- **One-Tap Logging** — Quick-log default doses or enter custom amounts
+- **Dashboard Card** — Today's intake status at a glance
+- **Multi-Dose Support** — Log multiple doses per day with totals
+- **Unified History** — Measurements and supplements in one timeline
+
 ### ❤️ Apple Health Integration
 
 - **Two-Way Sync** — Read from and write to Apple Health automatically
@@ -68,8 +76,7 @@ Most body trackers just log weight. Mindful Body goes deeper — it tracks your 
 
 ### 🌍 Localization
 
-- **English & German** — Fully localized with 325+ translated strings
-- **More languages coming soon**
+- **6 Languages** — English, German, Spanish, French, Japanese, and Chinese Simplified
 
 ## Screenshots
 

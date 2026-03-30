@@ -53,6 +53,7 @@ La mayoría de los rastreadores corporales solo registran el peso. Mindful Body 
 ### 💊 Seguimiento de Suplementos
 
 - **Suplementos Personalizados** — Crea los tuyos propios (proteína, creatina, vitaminas, etc.) con dosis predeterminadas
+- **Indicaciones de toma** — Establece cuándo tomar cada suplemento (mañana, antes del entrenamiento, después del entrenamiento, antes de dormir y más)
 - **Registro con Un Toque** — Registra dosis predeterminadas rápidamente o introduce cantidades personalizadas
 - **Tarjeta del Panel** — Estado de ingesta del día de un vistazo
 - **Soporte Multidosis** — Registra varias dosis al día con totales

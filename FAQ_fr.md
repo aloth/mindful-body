@@ -44,6 +44,9 @@ Oui. Tu peux enregistrer plusieurs doses du même supplément au cours de la jou
 ### Les journaux de suppléments se synchronisent-ils via iCloud ?
 Oui. Les journaux de suppléments se synchronisent entre tes appareils via iCloud (CloudKit), tout comme les mesures et les objectifs.
 
+### Puis-je définir quand prendre chaque complément ?
+Oui. Tu peux ajouter des indications comme « matin », « avant l'entraînement », « après l'entraînement » ou « avant de dormir » à chaque complément. Tu peux sélectionner plusieurs moments et aussi créer des entrées personnalisées. Elles s'affichent comme rappels dans la liste des compléments.
+
 ## Photos de Progression
 
 ### Mes photos de progression sont-elles privées ?

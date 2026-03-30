@@ -44,6 +44,9 @@ Yes. You can log multiple doses of the same supplement throughout the day. The a
 ### Do supplement logs sync via iCloud?
 Yes. Supplement logs sync seamlessly across your devices via iCloud (CloudKit), just like measurements and goals.
 
+### Can I set when to take each supplement?
+Yes. You can add timing hints like "morning", "before workout", "after workout", or "before bed" to each supplement. You can select multiple timings and also add your own custom entries. These are shown as reminders on the supplement list.
+
 ## Progress Photos
 
 ### Are my progress photos private?

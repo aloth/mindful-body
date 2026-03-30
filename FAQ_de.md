@@ -44,6 +44,9 @@ Ja. Du kannst dasselbe Supplement mehrmals täglich eintragen. Die App zeigt dir
 ### Werden Supplement-Einträge über iCloud synchronisiert?
 Ja. Supplement-Einträge werden wie Messungen und Ziele nahtlos über iCloud (CloudKit) zwischen deinen Geräten synchronisiert.
 
+### Kann ich festlegen, wann ich jedes Supplement einnehmen soll?
+Ja. Du kannst Einnahmehinweise wie "morgens", "vor dem Training", "nach dem Training" oder "vor dem Schlafen" zu jedem Supplement hinzufügen. Mehrere Hinweise sind möglich, und du kannst auch eigene Einträge erstellen. Diese werden als Erinnerung in der Supplement-Liste angezeigt.
+
 ## Fortschrittsfotos
 
 ### Sind meine Fortschrittsfotos privat?

@@ -44,6 +44,9 @@ Sí. Puedes registrar varias dosis del mismo suplemento a lo largo del día. La 
 ### ¿Los registros de suplementos se sincronizan mediante iCloud?
 Sí. Los registros de suplementos se sincronizan entre tus dispositivos a través de iCloud (CloudKit), igual que las mediciones y los objetivos.
 
+### ¿Puedo establecer cuándo tomar cada suplemento?
+Sí. Puedes añadir indicaciones como "mañana", "antes del entrenamiento", "después del entrenamiento" o "antes de dormir" a cada suplemento. Puedes seleccionar varios momentos y también crear entradas personalizadas. Se muestran como recordatorios en la lista de suplementos.
+
 ## Fotos de Progreso
 
 ### ¿Son privadas mis fotos de progreso?

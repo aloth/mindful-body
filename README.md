@@ -151,6 +151,13 @@ Mindful Body takes your privacy seriously:
 - **iCloud encryption** — Synced data is encrypted in transit and at rest
 - **Your data is yours** — Full data export capability
 
+## Feedback & Support
+
+Help make Mindful Body even better:
+
+- **Report a Bug:** [Open an Issue](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
+- **Suggest a Feature:** [Open a Feature Request](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
+
 ## Related Projects
 
 - [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — Smart caffeine tracking with sleep prediction & cortisol rhythm modeling

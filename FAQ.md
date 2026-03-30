@@ -77,7 +77,10 @@ Weight, body fat, BMI, lean body mass, waist circumference, and basal energy bur
 ## Support
 
 ### How do I contact support?
-Email us at support@alexloth.com or use the Contact option in Settings.
+You can reach us by [opening an issue on GitHub](https://github.com/aloth/mindful-body/issues/new/choose) or via the Contact option in Settings.
 
 ### How do I report a bug?
-Use the "Report a Bug" option in Settings. It automatically includes your app version and device info.
+[Open a bug report on GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml) with a description of the issue. You can also use the "Report a Bug" option in Settings.
+
+### How do I suggest a feature?
+[Open a feature request on GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). We read every suggestion!

@@ -77,7 +77,10 @@ Poids, masse grasse, IMC, masse corporelle maigre, tour de taille et dépense é
 ## Support
 
 ### Comment contacter le support ?
-Écris-nous à support@alexloth.com ou utilise l'option Contact dans les Réglages.
+Tu peux nous contacter en [ouvrant un Issue sur GitHub](https://github.com/aloth/mindful-body/issues/new/choose) ou via l'option Contact dans les Réglages.
 
 ### Comment signaler un bug ?
-Utilise l'option « Signaler un bug » dans les Réglages. La version de l'app et les informations sur ton appareil sont incluses automatiquement.
+[Ouvre un rapport de bug sur GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml) avec une description du problème.
+
+### Comment suggérer une fonctionnalité ?
+[Ouvre un Feature Request sur GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). Nous lisons chaque suggestion !

@@ -77,7 +77,10 @@ Gewicht, Körperfett, BMI, fettfreie Körpermasse, Taillenumfang und Grundumsatz
 ## Support
 
 ### Wie kontaktiere ich den Support?
-Schreib uns an support@alexloth.com oder nutze die Kontakt-Option in den Einstellungen.
+Du kannst uns über ein [Issue auf GitHub](https://github.com/aloth/mindful-body/issues/new/choose) erreichen oder die Kontakt-Option in den Einstellungen nutzen.
 
 ### Wie melde ich einen Fehler?
-Nutze die Option „Fehler melden" in den Einstellungen. Deine App-Version und Geräteinformationen werden automatisch beigefügt.
+[Erstelle einen Bug-Report auf GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml) mit einer Beschreibung des Problems.
+
+### Wie schlage ich eine Funktion vor?
+[Erstelle einen Feature Request auf GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). Wir lesen jeden Vorschlag!

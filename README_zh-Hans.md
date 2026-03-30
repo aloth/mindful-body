@@ -151,6 +151,13 @@ Mindful Body 认真对待你的隐私：
 - **iCloud 加密** — 同步数据在传输中和静态存储时均已加密
 - **你的数据属于你** — 完整的数据导出功能
 
+## 反馈与支持
+
+帮助改进 Mindful Body：
+
+- **报告错误：** [创建 Issue](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
+- **建议功能：** [创建 Feature Request](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
+
 ## 相关项目
 
 - [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — 智能咖啡因追踪，包含睡眠预测与皮质醇节律建模

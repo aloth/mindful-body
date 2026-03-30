@@ -151,6 +151,13 @@ Mindful Body はあなたのプライバシーを真剣に考えています：
 - **iCloud 暗号化** — 同期データは転送中も保存中も暗号化されています
 - **あなたのデータはあなたのもの** — 完全なデータエクスポート機能
 
+## フィードバックとサポート
+
+Mindful Bodyの改善にご協力ください：
+
+- **バグを報告:** [Issueを作成](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
+- **機能を提案:** [Feature Requestを作成](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
+
 ## 関連プロジェクト
 
 - [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — 睡眠予測とコルチゾールリズムモデリングを備えたスマートなカフェイン追跡

@@ -77,7 +77,10 @@ Peso, grasa corporal, IMC, masa corporal magra, circunferencia de cintura y ener
 ## Soporte
 
 ### ¿Cómo contacto con el soporte?
-Escríbenos a support@alexloth.com o usa la opción Contacto en Ajustes.
+Puedes contactarnos [abriendo un Issue en GitHub](https://github.com/aloth/mindful-body/issues/new/choose) o usando la opción Contacto en Ajustes.
 
 ### ¿Cómo informo de un error?
-Usa la opción «Informar de un error» en Ajustes. Incluye automáticamente la versión de la app y la información del dispositivo.
+[Abre un reporte de error en GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml) con una descripción del problema.
+
+### ¿Cómo sugiero una función?
+[Abre un Feature Request en GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). ¡Leemos cada sugerencia!

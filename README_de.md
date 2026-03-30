@@ -150,6 +150,13 @@ Mindful Body nimmt deine Privatsphäre ernst:
 - **iCloud-Verschlüsselung** — Synchronisierte Daten werden bei der Übertragung und im Ruhezustand verschlüsselt
 - **Deine Daten gehören dir** — Vollständige Datenexportfunktion
 
+## Feedback & Support
+
+Hilf mit, Mindful Body noch besser zu machen:
+
+- **Fehler melden:** [Issue erstellen](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
+- **Feature vorschlagen:** [Feature Request erstellen](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
+
 ## Verwandte Projekte
 
 - [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — Intelligentes Koffein-Tracking mit Schlafvorhersage & Kortisol-Rhythmus-Modellierung

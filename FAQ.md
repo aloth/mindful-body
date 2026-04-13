@@ -47,6 +47,9 @@ Yes. Supplement logs sync seamlessly across your devices via iCloud (CloudKit), 
 ### Can I set when to take each supplement?
 Yes. You can add timing hints like "morning", "before workout", "after workout", or "before bed" to each supplement. You can select multiple timings and also add your own custom entries. These are shown as reminders on the supplement list.
 
+### Can I create supplement schedules?
+Yes. You can set supplements to repeat daily, on specific days, every N days, or in cycles such as X days on and Y days off. You can also pause a supplement until a chosen date. The app highlights whether something is due today, already taken, not scheduled today, or currently paused.
+
 ## Progress Photos
 
 ### Are my progress photos private?

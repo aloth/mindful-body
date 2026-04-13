@@ -54,7 +54,9 @@ Most body trackers just log weight. Mindful Body goes deeper — it tracks your 
 
 - **Custom Supplements** — Create your own (protein, creatine, vitamins, etc.) with default doses
 - **Timing Hints** — Set when to take each supplement (morning, before workout, after workout, before bed, and more)
+- **Flexible Schedules** — Plan supplements daily, on specific days, every N days, in cycles, or pause them until a chosen date
 - **One-Tap Logging** — Quick-log default doses or enter custom amounts
+- **Smart Status** — See what's due today, already taken, not scheduled, or paused
 - **Dashboard Card** — Today's intake status at a glance
 - **Multi-Dose Support** — Log multiple doses per day with totals
 - **Unified History** — Measurements and supplements in one timeline

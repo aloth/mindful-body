@@ -47,6 +47,9 @@ Ja. Supplement-Einträge werden wie Messungen und Ziele nahtlos über iCloud (Cl
 ### Kann ich festlegen, wann ich jedes Supplement einnehmen soll?
 Ja. Du kannst Einnahmehinweise wie "morgens", "vor dem Training", "nach dem Training" oder "vor dem Schlafen" zu jedem Supplement hinzufügen. Mehrere Hinweise sind möglich, und du kannst auch eigene Einträge erstellen. Diese werden als Erinnerung in der Supplement-Liste angezeigt.
 
+### Kann ich Zeitpläne für Supplements erstellen?
+Ja. Du kannst Supplements täglich, an bestimmten Tagen, alle N Tage oder in Zyklen wie X Tage einnehmen und Y Tage pausieren planen. Außerdem kannst du ein Supplement bis zu einem gewählten Datum pausieren. Die App zeigt an, ob etwas heute fällig, bereits eingenommen, heute nicht geplant oder aktuell pausiert ist.
+
 ## Fortschrittsfotos
 
 ### Sind meine Fortschrittsfotos privat?

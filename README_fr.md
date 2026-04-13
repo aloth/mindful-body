@@ -54,7 +54,9 @@ La plupart des traqueurs corporels se limitent au poids. Mindful Body va plus lo
 
 - **Suppléments Personnalisés** — Crée les tiens (protéines, créatine, vitamines, etc.) avec des doses par défaut
 - **Indications de prise** — Définis quand prendre chaque complément (matin, avant/après l'entraînement, avant de dormir et plus)
+- **Planification Flexible** — Planifie les compléments tous les jours, certains jours, tous les N jours, en cycles, ou mets-les en pause jusqu'à une date choisie
 - **Enregistrement en Un Tap** — Enregistre rapidement les doses par défaut ou saisit des quantités personnalisées
+- **Statut Intelligent** — Vois en un coup d'œil ce qui est prévu aujourd'hui, déjà pris, non prévu aujourd'hui ou en pause
 - **Carte du Tableau de Bord** — Statut de la prise du jour en un coup d'œil
 - **Support Multi-Doses** — Enregistre plusieurs doses par jour avec les totaux
 - **Historique Unifié** — Mesures et suppléments dans une seule chronologie

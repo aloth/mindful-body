@@ -47,6 +47,9 @@ Oui. Les journaux de suppléments se synchronisent entre tes appareils via iClou
 ### Puis-je définir quand prendre chaque complément ?
 Oui. Tu peux ajouter des indications comme « matin », « avant l'entraînement », « après l'entraînement » ou « avant de dormir » à chaque complément. Tu peux sélectionner plusieurs moments et aussi créer des entrées personnalisées. Elles s'affichent comme rappels dans la liste des compléments.
 
+### Puis-je créer des planifications pour mes suppléments ?
+Oui. Tu peux configurer les suppléments pour qu'ils reviennent tous les jours, certains jours, tous les N jours ou en cycles, par exemple X jours de prise et Y jours de pause. Tu peux aussi mettre un supplément en pause jusqu'à une date choisie. L'app indique si quelque chose est prévu aujourd'hui, déjà pris, non prévu aujourd'hui ou actuellement en pause.
+
 ## Photos de Progression
 
 ### Mes photos de progression sont-elles privées ?

@@ -47,6 +47,9 @@ Sí. Los registros de suplementos se sincronizan entre tus dispositivos a travé
 ### ¿Puedo establecer cuándo tomar cada suplemento?
 Sí. Puedes añadir indicaciones como "mañana", "antes del entrenamiento", "después del entrenamiento" o "antes de dormir" a cada suplemento. Puedes seleccionar varios momentos y también crear entradas personalizadas. Se muestran como recordatorios en la lista de suplementos.
 
+### ¿Puedo crear programaciones para los suplementos?
+Sí. Puedes configurar suplementos para repetir a diario, en días específicos, cada N días o en ciclos como X días de toma y Y días de pausa. También puedes pausar un suplemento hasta una fecha concreta. La app indica si algo toca hoy, ya fue tomado, no está programado hoy o está en pausa.
+
 ## Fotos de Progreso
 
 ### ¿Son privadas mis fotos de progreso?

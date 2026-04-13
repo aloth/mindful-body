@@ -53,7 +53,9 @@ Die meisten Körper-Tracker erfassen nur das Gewicht. Mindful Body geht tiefer �
 ### 💊 Supplement-Tracking
 
 - **Eigene Supplements** — Eigene anlegen (Protein, Kreatin, Vitamine usw.) mit Standarddosen
+- **Flexible Zeitpläne** — Supplements täglich, an bestimmten Tagen, alle N Tage, in Zyklen oder bis zu einem gewählten Datum pausiert planen
 - **Ein-Tipp-Erfassung** — Standarddosen schnell erfassen oder eigene Mengen eingeben
+- **Smarter Status** — Auf einen Blick sehen, was heute fällig, bereits eingenommen, heute nicht geplant oder pausiert ist
 - **Dashboard-Karte** — Heutige Einnahme auf einen Blick
 - **Mehrfachdosen** — Mehrere Dosen pro Tag mit Gesamtmengen erfassen
 - **Einheitliche Chronik** — Messungen und Supplements in einer Zeitleiste

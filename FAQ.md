@@ -11,7 +11,7 @@ Mindful Body is an iOS app for tracking your body composition — weight, body f
 Mindful Body offers a 7-day free trial. After that, you can continue with a subscription or lifetime purchase.
 
 ### What devices does Mindful Body support?
-Mindful Body runs on iPhone and iPad with iOS 17 or later.
+Mindful Body runs on iPhone, iPad, and modern Macs (via iPad compatibility) with iOS 17 or later.
 
 ### What languages does the app support?
 Mindful Body is fully localized in 6 languages: English, German, Spanish, French, Japanese, and Chinese Simplified.
@@ -31,7 +31,7 @@ Mindful Body is fully localized in 6 languages: English, German, Spanish, French
 No. You can enter all measurements manually. However, if you use a smart scale that writes to Apple Health, Mindful Body can import that data automatically.
 
 ### Can I import my existing weight data?
-Yes! Mindful Body can import up to 365 days of weight history from Apple Health in one tap.
+Yes! Mindful Body can import up to 365 days of weight, body fat, lean mass, and waist history from Apple Health in one tap.
 
 ## Supplements
 
@@ -61,7 +61,7 @@ Yes, when iCloud Sync is enabled, progress photos sync securely via CloudKit as 
 ## iCloud Sync
 
 ### What syncs via iCloud?
-Measurements, goals, supplement logs, and progress photos all sync across your Apple devices via CloudKit.
+Measurements, goals, supplement logs, and progress photos all sync via CloudKit across your iPhone, iPad, and modern Macs via iPad compatibility.
 
 ### What stays on my device?
 Settings, preferences, HealthKit data, and subscription status remain local.
@@ -72,7 +72,7 @@ The database configuration (local vs. cloud) is set at app launch. A restart is 
 ## Apple Health
 
 ### What data does Mindful Body read from Apple Health?
-Weight, body fat percentage, BMI, and lean body mass.
+Weight, body fat percentage, BMI, lean body mass, and waist circumference.
 
 ### What data does Mindful Body write to Apple Health?
 Weight, body fat, BMI, lean body mass, waist circumference, and basal energy burned. You can toggle this per measurement.

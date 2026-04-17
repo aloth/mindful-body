@@ -1,6 +1,6 @@
 🇺🇸 [English](README.md) | 🇩🇪 **Deutsch** | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
 
-# Mindful Body – Körperzusammensetzungs-Tracker für iPhone mit HealthKit & iCloud-Sync
+# Mindful Body – Körperzusammensetzungs-Tracker für iPhone, iPad & Mac mit HealthKit & iCloud-Sync
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/app/id6760477510)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
@@ -13,7 +13,7 @@
 
 **Verfolge deine Körperzusammensetzung mit Klarheit und Selbstvertrauen.**
 
-Mindful Body ist eine wunderschön gestaltete iOS-App zum Verfolgen von Gewicht, Körperfettanteil, Muskelmasse, Körpermaßen und mehr. Setze dir Ziele, mache Fortschrittsfotos und gewinne datengestützte Einblicke – alles mit vollständiger Apple Health-Integration und iCloud-Sync auf all deinen Geräten.
+Mindful Body ist eine wunderschön gestaltete iOS-App zum Verfolgen von Gewicht, Körperfettanteil, Muskelmasse, Körpermaßen und mehr. Setze dir Ziele, mache Fortschrittsfotos und gewinne datengestützte Einblicke – alles mit vollständiger Apple Health-Integration und iCloud-Sync auf deinem iPhone, iPad und modernen Macs per iPad-Kompatibilität.
 
 Teil der **Mindful Apps**-Familie, zusammen mit [Mindful Coffee](https://github.com/aloth/mindful-coffee).
 
@@ -58,17 +58,19 @@ Die meisten Körper-Tracker erfassen nur das Gewicht. Mindful Body geht tiefer �
 - **Smarter Status** — Auf einen Blick sehen, was heute fällig, bereits eingenommen, heute nicht geplant oder pausiert ist
 - **Dashboard-Karte** — Heutige Einnahme auf einen Blick
 - **Mehrfachdosen** — Mehrere Dosen pro Tag mit Gesamtmengen erfassen
+- **Erinnerungen pro Supplement** — Lege für jedes Supplement eine eigene Benachrichtigungszeit fest
 - **Einheitliche Chronik** — Messungen und Supplements in einer Zeitleiste
 
 ### ❤️ Apple Health-Integration
 
 - **Zwei-Wege-Sync** — Automatisch von Apple Health lesen und schreiben
-- **Verlauf importieren** — Bis zu 365 Tage Gewichtsdaten aus HealthKit importieren
+- **Auto-Sync** — Prüft Apple Health alle 30 Sekunden auf neue Einträge, solange die App aktiv ist
+- **Verlauf importieren** — Bis zu 365 Tage Gewichts-, Körperfett-, fettfreie-Masse- und Taillendaten aus HealthKit importieren
 - **Mehrere Metriken** — Synchronisiert Gewicht, Körperfett, BMI, fettfreie Körpermasse, Taillenumfang und BMR
 
 ### ☁️ iCloud-Sync
 
-- **Nahtlos auf mehreren Geräten** — Alle Messungen, Ziele und Fortschrittsfotos werden via CloudKit synchronisiert
+- **Nahtlos auf mehreren Geräten** — Alle Messungen, Ziele und Fortschrittsfotos werden via CloudKit auf iPhone, iPad und modernen Macs per iPad-Kompatibilität synchronisiert
 - **Sync-Status-Dashboard** — Sync-Status, letzten Sync-Zeitpunkt anzeigen und manuell synchronisieren
 - **Deduplizierungs-Tool** — Integrierte Wartungsfunktion zum Bereinigen doppelter Einträge
 

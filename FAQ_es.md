@@ -11,7 +11,7 @@ Mindful Body es una app de iOS para hacer seguimiento de tu composición corpora
 Mindful Body ofrece una prueba gratuita de 7 días. Después puedes continuar con una suscripción o una compra de por vida.
 
 ### ¿Qué dispositivos admite Mindful Body?
-Mindful Body funciona en iPhone y iPad con iOS 17 o posterior.
+Mindful Body funciona en iPhone, iPad y Macs modernos mediante compatibilidad con iPad con iOS 17 o posterior.
 
 ### ¿En qué idiomas está disponible la app?
 Mindful Body está completamente localizada en 6 idiomas: inglés, alemán, español, francés, japonés y chino simplificado.
@@ -31,7 +31,7 @@ Mindful Body está completamente localizada en 6 idiomas: inglés, alemán, espa
 No. Puedes introducir todas las medidas manualmente. Sin embargo, si usas una báscula inteligente que sincroniza con Apple Salud, Mindful Body puede importar esos datos automáticamente.
 
 ### ¿Puedo importar mis datos de peso existentes?
-¡Sí! Mindful Body puede importar hasta 365 días de historial de peso desde Apple Salud con un solo toque.
+¡Sí! Mindful Body puede importar hasta 365 días de historial de peso, grasa corporal, masa magra y cintura desde Apple Salud con un solo toque.
 
 ## Suplementos
 
@@ -61,7 +61,7 @@ Sí, cuando la sincronización con iCloud está activada, las fotos se sincroniz
 ## Sincronización con iCloud
 
 ### ¿Qué se sincroniza mediante iCloud?
-Las mediciones, los objetivos, los registros de suplementos y las fotos de progreso se sincronizan entre tus dispositivos Apple a través de CloudKit.
+Las mediciones, los objetivos, los registros de suplementos y las fotos de progreso se sincronizan a través de CloudKit entre tu iPhone, iPad y Macs modernos mediante compatibilidad con iPad.
 
 ### ¿Qué permanece en mi dispositivo?
 La configuración, las preferencias, los datos de HealthKit y el estado de la suscripción permanecen en local.
@@ -72,7 +72,7 @@ La configuración de la base de datos (local o en la nube) se establece al inici
 ## Apple Salud
 
 ### ¿Qué datos lee Mindful Body de Apple Salud?
-Peso, porcentaje de grasa corporal, IMC y masa corporal magra.
+Peso, porcentaje de grasa corporal, IMC, masa corporal magra y circunferencia de cintura.
 
 ### ¿Qué datos escribe Mindful Body en Apple Salud?
 Peso, grasa corporal, IMC, masa corporal magra, circunferencia de cintura y energía basal quemada. Puedes activar o desactivar esto por cada medición.

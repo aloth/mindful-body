@@ -11,7 +11,7 @@ Mindful Body ist eine iOS-App zur Verfolgung deiner Körperzusammensetzung — G
 Mindful Body bietet eine 7-tägige kostenlose Testphase. Danach kannst du ein Abonnement abschließen oder einen einmaligen Lifetime-Kauf tätigen.
 
 ### Welche Geräte unterstützt Mindful Body?
-Mindful Body läuft auf iPhone und iPad mit iOS 17 oder neuer.
+Mindful Body läuft auf iPhone, iPad und modernen Macs per iPad-Kompatibilität mit iOS 17 oder neuer.
 
 ### Welche Sprachen unterstützt die App?
 Mindful Body ist vollständig in 6 Sprachen lokalisiert: Englisch, Deutsch, Spanisch, Französisch, Japanisch und Chinesisch (Vereinfacht).
@@ -31,7 +31,7 @@ Mindful Body ist vollständig in 6 Sprachen lokalisiert: Englisch, Deutsch, Span
 Nein. Du kannst alle Messungen manuell eingeben. Wenn du eine smarte Waage verwendest, die in Apple Health schreibt, kann Mindful Body diese Daten automatisch importieren.
 
 ### Kann ich meine bestehenden Gewichtsdaten importieren?
-Ja! Mindful Body kann bis zu 365 Tage Gewichtsverlauf aus Apple Health mit einem Tipp importieren.
+Ja! Mindful Body kann bis zu 365 Tage Gewichts-, Körperfett-, fettfreie-Masse- und Taillenverlauf aus Apple Health mit einem Tipp importieren.
 
 ## Nahrungsergänzung
 
@@ -61,7 +61,7 @@ Ja, bei aktivierter iCloud-Synchronisierung werden Fotos sicher über CloudKit a
 ## iCloud-Synchronisierung
 
 ### Was wird über iCloud synchronisiert?
-Messungen, Ziele, Supplement-Einträge und Fortschrittsfotos werden über CloudKit zwischen deinen Apple-Geräten synchronisiert.
+Messungen, Ziele, Supplement-Einträge und Fortschrittsfotos werden über CloudKit zwischen deinem iPhone, iPad und modernen Macs per iPad-Kompatibilität synchronisiert.
 
 ### Was bleibt auf meinem Gerät?
 Einstellungen, Präferenzen, HealthKit-Daten und der Abonnementstatus bleiben lokal.
@@ -72,7 +72,7 @@ Die Datenbankkonfiguration (lokal vs. Cloud) wird beim App-Start festgelegt. Ein
 ## Apple Health
 
 ### Welche Daten liest Mindful Body aus Apple Health?
-Gewicht, Körperfettanteil, BMI und fettfreie Körpermasse.
+Gewicht, Körperfettanteil, BMI, fettfreie Körpermasse und Taillenumfang.
 
 ### Welche Daten schreibt Mindful Body in Apple Health?
 Gewicht, Körperfett, BMI, fettfreie Körpermasse, Taillenumfang und Grundumsatz. Du kannst dies pro Messung ein- oder ausschalten.

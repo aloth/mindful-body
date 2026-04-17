@@ -1,6 +1,6 @@
 🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 **Français** | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
 
-# Mindful Body – Suivi de la Composition Corporelle pour iPhone avec HealthKit & synchronisation iCloud
+# Mindful Body – Suivi de la Composition Corporelle pour iPhone, iPad & Mac avec HealthKit & synchronisation iCloud
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/app/id6760477510)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
@@ -13,7 +13,7 @@
 
 **Suis ton évolution corporelle avec clarté et confiance.**
 
-Mindful Body est une app iOS magnifiquement conçue pour suivre le poids, la masse grasse, la masse musculaire, les mensurations et bien plus encore. Fixe des objectifs, capture des photos de progression et obtiens des informations basées sur les données — le tout avec une intégration complète d'Apple Health et une synchronisation iCloud sur tous tes appareils.
+Mindful Body est une app iOS magnifiquement conçue pour suivre le poids, la masse grasse, la masse musculaire, les mensurations et bien plus encore. Fixe des objectifs, capture des photos de progression et obtiens des informations basées sur les données — le tout avec une intégration complète d'Apple Health et une synchronisation iCloud sur ton iPhone, ton iPad et les Mac modernes via la compatibilité iPad.
 
 Fait partie de la famille **Mindful Apps**, aux côtés de [Mindful Coffee](https://github.com/aloth/mindful-coffee).
 
@@ -59,17 +59,19 @@ La plupart des traqueurs corporels se limitent au poids. Mindful Body va plus lo
 - **Statut Intelligent** — Vois en un coup d'œil ce qui est prévu aujourd'hui, déjà pris, non prévu aujourd'hui ou en pause
 - **Carte du Tableau de Bord** — Statut de la prise du jour en un coup d'œil
 - **Support Multi-Doses** — Enregistre plusieurs doses par jour avec les totaux
+- **Rappels par supplément** — Définis une heure de notification personnalisée pour chaque supplément
 - **Historique Unifié** — Mesures et suppléments dans une seule chronologie
 
 ### ❤️ Intégration Apple Health
 
 - **Synchronisation Bidirectionnelle** — Lit et écrit automatiquement dans Apple Health
-- **Importer l'Historique** — Importe jusqu'à 365 jours de données de poids depuis HealthKit
+- **Synchronisation auto** — Vérifie Apple Health toutes les 30 secondes pour détecter de nouvelles entrées pendant que l'app est active
+- **Importer l'Historique** — Importe jusqu'à 365 jours de données de poids, masse grasse, masse maigre et tour de taille depuis HealthKit
 - **Plusieurs Métriques** — Synchronise le poids, la graisse corporelle, le BMI, la masse maigre, le tour de taille et le BMR
 
 ### ☁️ Synchronisation iCloud
 
-- **Multi-Appareils Transparent** — Toutes les mesures, objectifs et photos de progression se synchronisent via CloudKit
+- **Multi-Appareils Transparent** — Toutes les mesures, objectifs et photos de progression se synchronisent via CloudKit sur iPhone, iPad et Mac modernes via la compatibilité iPad
 - **Tableau de Bord de Synchronisation** — Consulte le statut, l'heure de la dernière sync et force la synchronisation à la demande
 - **Outil de Déduplication** — Maintenance intégrée pour supprimer les enregistrements en double
 

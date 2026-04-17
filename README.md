@@ -1,6 +1,6 @@
 🇺🇸 **English** | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
 
-# Mindful Body – Body Composition Tracker for iPhone with HealthKit & iCloud Sync
+# Mindful Body – Body Composition Tracker for iPhone, iPad & Mac with HealthKit & iCloud Sync
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/app/id6760477510)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
@@ -13,7 +13,7 @@
 
 **Track your body composition journey with clarity and confidence.**
 
-Mindful Body is a beautifully designed iOS app for tracking weight, body fat, muscle mass, circumferences, and more. Set goals, capture progress photos, and gain data-driven insights — all with full Apple Health integration and iCloud sync across your devices.
+Mindful Body is a beautifully designed iOS app for tracking weight, body fat, muscle mass, circumferences, and more. Set goals, capture progress photos, and gain data-driven insights — all with full Apple Health integration and iCloud sync across your iPhone, iPad, and modern Macs via iPad compatibility.
 
 Part of the **Mindful Apps** family, alongside [Mindful Coffee](https://github.com/aloth/mindful-coffee).
 
@@ -59,17 +59,19 @@ Most body trackers just log weight. Mindful Body goes deeper — it tracks your 
 - **Smart Status** — See what's due today, already taken, not scheduled, or paused
 - **Dashboard Card** — Today's intake status at a glance
 - **Multi-Dose Support** — Log multiple doses per day with totals
+- **Per-Supplement Reminders** — Set a personal notification time for each supplement
 - **Unified History** — Measurements and supplements in one timeline
 
 ### ❤️ Apple Health Integration
 
 - **Two-Way Sync** — Read from and write to Apple Health automatically
-- **Import History** — Pull in up to 365 days of weight data from HealthKit
+- **Auto-Sync** — Automatically checks Apple Health for new entries every 30 seconds while the app is active
+- **Import History** — Pull in up to 365 days of weight, body fat, lean mass, and waist data from HealthKit
 - **Multiple Metrics** — Syncs weight, body fat, BMI, lean body mass, waist circumference, and BMR
 
 ### ☁️ iCloud Sync
 
-- **Seamless Multi-Device** — All measurements, goals, and progress photos sync via CloudKit
+- **Seamless Multi-Device** — All measurements, goals, and progress photos sync via CloudKit across iPhone, iPad, and modern Macs via iPad compatibility
 - **Sync Status Dashboard** — See sync status, last sync time, and force sync on demand
 - **Deduplication Tool** — Built-in maintenance to clean up duplicate records
 

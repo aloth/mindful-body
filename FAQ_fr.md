@@ -11,7 +11,7 @@ Mindful Body est une app iOS pour suivre ta composition corporelle — poids, ma
 Mindful Body propose un essai gratuit de 7 jours. Ensuite, tu peux continuer avec un abonnement ou un achat à vie.
 
 ### Quels appareils sont pris en charge ?
-Mindful Body fonctionne sur iPhone et iPad avec iOS 17 ou version ultérieure.
+Mindful Body fonctionne sur iPhone, iPad et les Mac modernes via la compatibilité iPad avec iOS 17 ou version ultérieure.
 
 ### Dans quelles langues l'app est-elle disponible ?
 Mindful Body est entièrement localisée en 6 langues : anglais, allemand, espagnol, français, japonais et chinois simplifié.
@@ -31,7 +31,7 @@ Mindful Body est entièrement localisée en 6 langues : anglais, allemand, espag
 Non. Tu peux saisir toutes les mesures manuellement. Cependant, si tu utilises une balance intelligente qui synchronise avec Apple Santé, Mindful Body peut importer ces données automatiquement.
 
 ### Puis-je importer mes données de poids existantes ?
-Oui ! Mindful Body peut importer jusqu'à 365 jours d'historique de poids depuis Apple Santé en un seul tap.
+Oui ! Mindful Body peut importer jusqu'à 365 jours d'historique de poids, masse grasse, masse maigre et tour de taille depuis Apple Santé en un seul tap.
 
 ## Suppléments
 
@@ -61,7 +61,7 @@ Oui, lorsque la synchronisation iCloud est activée, les photos se synchronisent
 ## Synchronisation iCloud
 
 ### Qu'est-ce qui se synchronise via iCloud ?
-Les mesures, les objectifs, les journaux de suppléments et les photos de progression se synchronisent sur tous tes appareils Apple via CloudKit.
+Les mesures, les objectifs, les journaux de suppléments et les photos de progression se synchronisent via CloudKit sur iPhone, iPad et Mac modernes via la compatibilité iPad.
 
 ### Qu'est-ce qui reste sur mon appareil ?
 Les paramètres, les préférences, les données HealthKit et le statut de l'abonnement restent en local.

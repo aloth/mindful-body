@@ -1,6 +1,6 @@
 🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 **中文**
 
-# Mindful Body – 支持 HealthKit 与 iCloud 同步的 iPhone、iPad 和 Mac 体脂追踪应用
+# Mindful Body — 适用于 iPhone、iPad 和 Mac 的训练、习惯与身体成分追踪应用
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/app/id6760477510)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
@@ -8,174 +8,146 @@
 [![GitHub stars](https://img.shields.io/github/stars/aloth/mindful-body?style=social)](https://github.com/aloth/mindful-body/stargazers)
 
 <p align="center">
-  <img src="assets/images/mindful-body-body-composition-tracker-hero.jpg" alt="Mindful Body — body composition tracking with HealthKit, iCloud sync, and progress photos" width="700">
+  <img src="assets/images/mindful-body-body-composition-tracker-hero.jpg" alt="Mindful Body 训练、习惯与身体成分追踪应用，支持 iPhone、HealthKit 和 iCloud 同步" width="700">
 </p>
 
-**清晰自信地追踪你的身体变化之旅。**
+**训练。记录。蜕变。** 构建训练计划，培养习惯与连续打卡，记录每一项数据，让一个数字 **Body Score** 把所有进展凝聚在一起。
 
-Mindful Body 是一款精心设计的 iOS 应用，用于追踪体重、体脂率、肌肉量、围度等数据。设定目标，拍摄进度照片，获取数据驱动的洞察 — 全程支持 Apple Health 完整集成，并通过 iCloud 在 iPhone、iPad 和支持 iPad 兼容模式的现代 Mac 之间同步。
+Mindful Body 是面向 iPhone、iPad 和 Mac（通过 iPad 兼容）的隐私优先训练、习惯与身体成分追踪应用。完整 Apple 健康集成，iCloud 同步，零广告。
 
-与 [Mindful Coffee](https://github.com/aloth/mindful-coffee) 同为 **Mindful Apps** 系列应用。
+属于 **Mindful Apps** 系列，与 [Mindful Coffee](https://github.com/aloth/mindful-coffee) 同源。
 
-## 为什么选择 Mindful Body？
+## 为什么选 Mindful Body？
 
-大多数身体追踪应用只记录体重。Mindful Body 更进一步 — 追踪完整的身体成分，可视化长期趋势，并提供科学依据的洞察，帮你了解哪些方法有效。无论是减脂、增肌还是保持健康，这款应用都能为你呈现全面图景。
+大多数健身应用让你在训练日志、习惯追踪、身体成分之间二选一。Mindful Body 把三者合而为一，并以单一数字告诉你真实的进展。无论是减脂、增肌、增力，还是单纯坚持，Mindful Body 给你完整画面和下一步。
 
-## 核心功能
+## 主要功能
 
-### 📊 全面身体追踪
+### 🏋️ 与你共同成长的训练
 
-- **体重 & BMI** — 记录体重，根据身高自动计算 BMI
-- **身体成分** — 追踪体脂率、肌肉量、内脏脂肪等级和基础代谢率（BMR）
-- **围度测量** — 胸围、腰围、臀围、颈围、臂围和腿围 — 一处全部管理
-- **智能单位** — 在公制（kg/cm）和英制（lbs/in）之间无缝切换
+- **训练计划** — 从精选动作库构建，或从示例计划入手
+- **实时训练** — 启动训练并逐组打钩
+- **智能进阶** — 基于器械（杠铃、哑铃、器械、绳索、壶铃、自重）和上次表现的提示
+- **训练量火花线** — 按动作显示训练量趋势
+- **瘦体重交叉洞察** — 训练如何反映在身体成分上
+- **公制 / 英制** — 随时切换，历史保持一致（以 kg 存储，按所选单位显示）
+
+### 🔥 习惯与连续打卡
+
+- **三种模式** — 避免（如「不饮酒」）、执行（如「每日散步」）、测量（如「1 万步」）
+- **六大类别** — 营养、恢复、运动、心智、物质、自定义
+- **精选模板** — 用经过验证的定义快速上手
+- **连续打卡** — 奖励坚持，不为偶尔失误一票否决
+- **HealthKit 桥接** — 自动接入步数、正念分钟、防晒等
+
+### 💯 你的 Body Score：一个数字
+
+- **0–100 分** — 综合体脂率、腰高比和瘦体重指数
+- **依年龄、性别校准** — 基于 Gallagher (2000) 与 AHA 参考
+- **30 天火花线** — 显示真实变化，不做平滑估算
+- **诚实的等级** — Athletic / Healthy / Average / Watch / Risk
+- **缺项不扣分** — 缺失数据缩小分母，而不是把分数清零
+
+### 📊 完整身体追踪
+
+- **体重与 BMI** — 记录体重，按身高自动计算 BMI
+- **身体成分** — 体脂率、肌肉量、内脏脂肪、基础代谢（BMR）
+- **围度** — 胸、腰、臀、颈、臂、腿
+- **智能单位** — 在公制（kg/cm）与英制（lbs/in）间无缝切换
 
 ### 📈 洞察与趋势
 
-- **趋势图表** — 每项指标的交互式图表，支持自定义时间范围
-- **科学依据的洞察** — 了解体型重塑、代谢变化和围度趋势
-- **记录连击** — 通过连击追踪和里程碑庆祝保持动力
-- **目标感知仪表盘** — 当你朝目标稳步前进时，卡片变为绿色
+- **当下 vs 趋势** — 「今日」快照与单独的「趋势」视图
+- **趋势图表** — 每项指标的可交互图表，时间区间可定制
+- **可选的 KPI 图表** — 在「今日」点击卡片即可切换图表
+- **科学依据的洞察** — 关于身体重塑、代谢与围度的引用解释
+- **记录连续性** — 连续打卡与里程碑庆祝
+- **目标导向仪表板** — 接近目标时卡片变绿
 
 ### 🎯 目标设定
 
-- **灵活目标** — 为体重、体脂、腰围或任何追踪指标设定目标
-- **截止日期** — 可选的截止日期追踪，保持自律
-- **成就追踪** — 达成目标时庆祝你的成就
+- **灵活目标** — 体重、体脂、腰围或任意指标
+- **截止日期** — 可选的截止日期跟踪
+- **达成追踪** — 完成时予以庆祝
 
 ### 📸 进度照片
 
-- **Face ID 保护** — 生物识别认证确保照片隐私
-- **姿势分类** — 按正面、背面、左侧、右侧整理
-- **前后对比** — 与测量数据并排的视觉进度追踪
-- **iCloud 同步** — 照片通过 CloudKit 在各设备间安全同步
+- **Face ID 保护** — 通过生物识别保护隐私
+- **按姿势归类** — 正面、背面、左侧、右侧
+- **前后对比** — 与测量数据并列展示
+- **iCloud 同步** — 通过 CloudKit 安全同步
 
 ### 💊 补剂追踪
 
-- **自定义补剂** — 创建你自己的补剂（蛋白粉、肌酸、维生素等），设置默认剂量
-- **服用提示** — 设置每种补充剂的服用时间（早上、训练前、训练后、睡前等）
-- **灵活计划** — 支持按每日、指定日期、每 N 天、周期模式，或暂停到指定日期来安排补剂
-- **一键记录** — 快速记录默认剂量或输入自定义用量
-- **智能状态** — 一眼查看今天该服用什么、哪些已记录、今天未安排的项目，以及当前暂停的项目
-- **仪表盘卡片** — 一目了然地查看今日摄入状态
-- **多次剂量支持** — 记录每日多次摄入及总量
-- **每种补充剂单独提醒** — 可为每种补充剂设置专属通知时间
-- **统一历史** — 测量数据与补剂记录在同一时间线中
+- **自定义补剂** — 创建自己的（蛋白粉、肌酸、维生素），含默认剂量
+- **服用时机提示** — 设定何时服用（清晨、训练前 / 后、睡前等）
+- **灵活计划** — 每天、特定日期、每 N 天、循环或暂停到某日
+- **一键记录** — 快速记录默认剂量或自定义量
+- **智能状态** — 显示今日待服、已服、未安排或已暂停
+- **逐项提醒** — 每个补剂可设独立通知时间
+- **统一历史** — 测量与补剂同在一条时间线
 
-### ❤️ Apple Health 集成
+### ❤️ Apple 健康集成
 
-- **双向同步** — 自动读取和写入 Apple Health
-- **自动同步** — 在应用处于活动状态时，每 30 秒检查一次 Apple Health 中的新记录
-- **导入历史数据** — 从 HealthKit 导入最多 365 天的体重、体脂、去脂体重和腰围数据
-- **多项指标** — 同步体重、体脂、BMI、去脂体重、腰围和 BMR
+- **双向同步** — 自动读取并写入 Apple 健康
+- **自动同步** — 应用前台时每 30 秒检查一次
+- **历史导入** — 从 HealthKit 导入最多 365 天的体重、体脂、瘦体重和腰围
+- **多项指标** — 体重、体脂、BMI、瘦体重、腰围、BMR、步数、正念分钟
 
 ### ☁️ iCloud 同步
 
-- **无缝多设备支持** — 所有测量数据、目标和进度照片通过 CloudKit 在 iPhone、iPad 和支持 iPad 兼容模式的现代 Mac 之间同步
-- **同步状态仪表盘** — 查看同步状态、上次同步时间，并可按需强制同步
-- **去重工具** — 内置维护功能，清理重复记录
+- **多设备无缝同步** — 测量、目标、训练、习惯、照片通过 CloudKit 同步
+- **同步状态面板** — 同步状态、最后同步时间、按需强制同步
+- **去重工具** — 内置维护工具清理重复记录
 
 ### 🔔 智能提醒
 
-- **每日称重** — 每天早晨温和提醒你踏上体重秤
-- **每周检查** — 提醒进行全面的身体成分记录
-- **每月进度照片** — 别忘了记录你的视觉进展
+- **每日称重** — 早晨称重的温和提示
+- **每周回顾** — 完整身体成分记录提醒
+- **每月进度照** — 不要错过视觉进展
+- **习惯提醒** — 按习惯自定义时间
+- **防晒提醒** — 与天气联动
+
+### 🧭 五个清晰的标签页
+
+**今日**（即时快照）· **趋势**（时间维度分析）· **记录**（你能记的一切）· **照片**（视觉进展）· **目标**（目标与成就）
 
 ### 🌍 本地化
 
-- **6 种语言** — 英语、德语、西班牙语、法语、日语和简体中文
-
-## 截图
-
-<table>
-<tr>
-<td width="50%">
-
-### 你的完整仪表盘
-体重、体脂、BMI、肌肉量 — 配合趋势图表和目标感知颜色编码，一目了然掌握所有关键指标。
-
-<img src="screenshots/mindful-body-dashboard-weight-body-fat-bmi-tracking.png" alt="Mindful Body Dashboard showing weight, body fat, BMI tracking with trend charts and goals" width="400"/>
-
-</td>
-<td width="50%">
-
-### 深色模式同样美观
-专为日夜使用设计，令人惊艳的深色主题，护眼舒适。
-
-<img src="screenshots/mindful-body-dark-mode-dashboard-trend-charts.png" alt="Mindful Body Dashboard in Dark Mode" width="400"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 有意义的洞察
-追踪连击记录，查看每周和每月平均值，获取关于身体成分变化的科学洞察。
-
-<img src="screenshots/mindful-body-insights-body-composition-analysis.png" alt="Mindful Body Insights showing body composition analysis and logging streaks" width="400"/>
-
-</td>
-<td width="50%">
-
-### 记录一切
-体重、体脂、肌肉量、BMR、内脏脂肪和围度 — 全部在一个简洁的表单中完成。
-
-<img src="screenshots/mindful-body-log-weight-muscle-mass-circumferences.png" alt="Mindful Body Log view for tracking weight, body composition, and circumferences" width="400"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 视觉进度
-通过按姿势整理的 Face ID 保护进度照片，记录你的蜕变过程。
-
-<img src="screenshots/mindful-body-progress-photos-face-id-protected.png" alt="Mindful Body Progress Photos with Face ID protection" width="400"/>
-
-</td>
-<td width="50%">
-
-### 设定目标，保持动力
-通过视觉指示器和成就庆祝追踪朝目标迈进的进度。
-
-<img src="screenshots/mindful-body-goals-target-tracking-achievements.png" alt="Mindful Body Goals showing target tracking and achievements" width="400"/>
-
-</td>
-</tr>
-</table>
+- **6 种语言** — 英语、德语、西班牙语、法语、日语、中文（简体）
 
 ## 隐私
 
-Mindful Body 认真对待你的隐私：
+Mindful Body 严肃对待你的隐私：
 
-- **不访问相册保存** — 进度照片存储在应用的私有容器中，从不保存到你的相册
-- **Face ID 保护** — 进度照片可通过生物识别认证锁定
-- **本地处理** — 所有计算均在本地完成
-- **无分析或追踪** — 零第三方 SDK
-- **iCloud 加密** — 同步数据在传输中和静态存储时均已加密
-- **你的数据属于你** — 完整的数据导出功能
+- **不访问相机胶卷以保存** — 进度照片仅保存在应用私有容器中
+- **Face ID 保护** — 进度照片可用生物识别加锁
+- **设备端处理** — Body Score 与趋势计算全部在本地完成
+- **零分析、零追踪、零广告** — 没有任何第三方 SDK
+- **iCloud 加密** — 同步数据传输与静态时均加密
+- **数据归你所有** — 支持完整数据导出
 
 ## 反馈与支持
 
-帮助改进 Mindful Body：
+帮助让 Mindful Body 更好：
 
-- **报告错误：** [创建 Issue](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
-- **建议功能：** [创建 Feature Request](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
+- **报告问题：** [打开 Issue](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
+- **建议功能：** [打开 Feature Request](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
 
 ## 相关项目
 
-- [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — 智能咖啡因追踪，包含睡眠预测与皮质醇节律建模
-- [**Trackless Links**](https://github.com/aloth/trackless-links) — 用于从 URL 中删除追踪器的 Safari 扩展
+- [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — 智能咖啡因追踪，含睡眠预测与皮质醇节律建模
+- [**Trackless Links**](https://github.com/aloth/trackless-links) — 从网址中清除追踪参数的 Safari 扩展
 
-## 许可证
+## 许可
 
-本仓库包含 Mindful Body 的文档、资源和支持文件。
-应用源代码为专有软件。© 2026 Alexander Loth。保留所有权利。
+本仓库包含 Mindful Body 的文档、资源与支持文件。
+应用源代码为专有。© 2026 Alexander Loth. 保留所有权利。
 
 ---
 
 <p align="center">
   <a href="https://apps.apple.com/app/id6760477510">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Mindful Body on the App Store" height="50">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="在 App Store 下载 Mindful Body 训练、习惯与身体成分追踪应用" height="50">
   </a>
 </p>

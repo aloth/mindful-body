@@ -5,85 +5,130 @@
 ## Allgemein
 
 ### Was ist Mindful Body?
-Mindful Body ist eine iOS-App zur Verfolgung deiner Körperzusammensetzung — Gewicht, Körperfett, Muskelmasse, Umfänge und mehr. Die App bietet datenbasierte Einblicke und Fortschrittsverfolgung, um dir zu helfen, deine Gesundheitsziele zu erreichen.
+Mindful Body ist eine iOS-App, die Workout-Tracker, Gewohnheits-Tracker und Körperzusammensetzungs-Tracker in einem datenschutzorientierten Paket vereint. Erstelle Routinen, verfolge tägliche Gewohnheiten, erfasse Messungen und beobachte, wie eine einzige Zahl, dein Body Score, alles zusammenführt.
 
 ### Ist Mindful Body kostenlos?
-Mindful Body bietet eine 7-tägige kostenlose Testphase. Danach kannst du ein Abonnement abschließen oder einen einmaligen Lifetime-Kauf tätigen.
+Mindful Body bietet eine 7-tägige kostenlose Testphase. Danach kannst du mit einem Monats- oder Jahresabo weitermachen oder einen einmaligen Lifetime-Kauf tätigen.
 
 ### Welche Geräte unterstützt Mindful Body?
-Mindful Body läuft auf iPhone, iPad und modernen Macs per iPad-Kompatibilität mit iOS 17 oder neuer.
+Mindful Body läuft auf iPhone, iPad und modernen Macs (per iPad-Kompatibilität) mit iOS 17 oder neuer.
 
 ### Welche Sprachen unterstützt die App?
 Mindful Body ist vollständig in 6 Sprachen lokalisiert: Englisch, Deutsch, Spanisch, Französisch, Japanisch und Chinesisch (Vereinfacht).
 
+## Workouts
+
+### Wie funktionieren Workouts in Mindful Body?
+Erstelle Routinen aus einer kuratierten Übungsbibliothek oder starte mit Studio-Vorlagen. Beim Training startest du eine Live-Session und hakst Sätze einzeln ab. Die App zeichnet jeden Arbeitssatz auf, sodass du eine echte Historie zum Lernen hast.
+
+### Was ist „smarte Progression"?
+Nach jeder Session schaut Mindful Body auf deine letzte Leistung und schlägt den nächsten Sprung vor. Das Inkrement ist geräte-bewusst: Langhantel, Maschine und Kabel bewegen sich in 2,5-kg-Schritten; Kurzhantel und Kettlebell in 1,0 kg; Eigengewicht und Cardio ändern kein Gewicht. Die Regel: Wenn jeder Top-Satz deine obere Wiederholungszahl getroffen hat, hochgehen. Wenn jeder Top-Satz die untere getroffen hat, halten. Sonst um einen Schritt deloaden.
+
+### Kann ich sehen, wie sich mein Training auf die Körperzusammensetzung auswirkt?
+Ja. Der Trends-Tab zeigt Lean-Mass-Cross-Insights, die mit deinem Trainingsvolumen verknüpft sind, sodass du sehen kannst, wie sich die Arbeit am Körper niederschlägt, nicht nur an der Hantel.
+
+### Unterstützt Mindful Body imperiale Einheiten beim Training?
+Ja. Schalte in den Einstellungen zwischen metrisch und imperial um, und Gewichte, Satz-Eingabe, Last-Session-Hinweise und Volumen-Badges schalten mit. Die Speicherung bleibt im Hintergrund in kg, sodass deine Historie konsistent bleibt, falls du wieder zurückwechselst.
+
+## Gewohnheiten & Streaks
+
+### Wie funktionieren Gewohnheiten?
+Gewohnheiten gibt es in drei Modi: Vermeiden (z. B. „Kein Alkohol"), Tun (z. B. „Tägliche Spaziergang") und Messen (z. B. „10.000 Schritte"). Wähle aus kuratierten Vorlagen in den Kategorien Ernährung, Erholung, Bewegung, Mindset und Substanzen oder erstelle deine eigenen.
+
+### Wie werden Streaks gezählt?
+Jede Gewohnheit hat einen Streak, der Konsistenz belohnt. Ausrutscher bestrafen dich nicht für immer, der Streak setzt sich einfach zurück und du fängst neu an.
+
+### Können Gewohnheiten aus Apple Health lesen?
+Ja. Die HealthKit-Brücke kann Schritte, Achtsamkeitsminuten, Sonnenschutz und andere unterstützte Messgrößen übernehmen, sodass passende Gewohnheiten automatisch aktualisiert werden.
+
+## Body Score
+
+### Was ist der Body Score?
+Der Body Score ist eine einzige Zahl von 0 bis 100, die Körperfettanteil (40 %), Taille-zu-Größe (30 %) und Lean-Mass-Index (20 %) kombiniert. Wenn Körperfett fehlt, springt BMI ein (30 %). Ein 30-Tage-Trend-Bonus trägt bis zu 10 % bei.
+
+### Ist der Body Score alters- und geschlechtsabhängig?
+Ja. Der Score ist nach Gallagher (2000) und AHA-Referenzen kalibriert und passt sich an Alter (18–39 Baseline; 40–59 +1 Prozentpunkt Ideal / +2 akzeptable Obergrenze; 60+ +3/+4) und biologisches Geschlecht an.
+
+### Warum ist mein Score nicht niedriger, wenn Daten fehlen?
+Absicht. Fehlende Komponenten reduzieren den Nenner, statt den Score auf null zu setzen. Du wirst nicht bestraft, weil du noch keine Körperfettwaage hast.
+
+### Was bedeuten die Tier-Stufen?
+- 85+ Athletisch
+- 70–84 Gesund
+- 55–69 Durchschnittlich
+- 40–54 Beobachten
+- < 40 Risiko
+
+Die Bezeichnungen sind ehrlich, nicht schmeichelnd. Sie sollen helfen, nicht verkaufen.
+
 ## Tracking
 
-### Welche Messwerte kann ich erfassen?
+### Welche Messgrößen kann ich verfolgen?
 - Gewicht (kg oder lbs)
 - Körperfettanteil
-- Muskelmasse
-- Viszerales Fett
+- Muskelmasse-Prozent
+- Viszerales Fett-Level
 - Grundumsatz (BMR)
-- BMI (wird automatisch berechnet)
-- Umfänge: Brust, Taille, Hüfte, Hals, Arme und Oberschenkel
+- BMI (automatisch berechnet)
+- Körpermaße: Brust, Taille, Hüfte, Hals, Arme, Oberschenkel
 
 ### Brauche ich eine smarte Waage?
-Nein. Du kannst alle Messungen manuell eingeben. Wenn du eine smarte Waage verwendest, die in Apple Health schreibt, kann Mindful Body diese Daten automatisch importieren.
+Nein. Du kannst alle Messungen manuell eingeben. Wenn du eine smarte Waage nutzt, die in Apple Health schreibt, importiert Mindful Body automatisch.
 
 ### Kann ich meine bestehenden Gewichtsdaten importieren?
-Ja! Mindful Body kann bis zu 365 Tage Gewichts-, Körperfett-, fettfreie-Masse- und Taillenverlauf aus Apple Health mit einem Tipp importieren.
+Ja. Mindful Body importiert mit einem Tipp bis zu 365 Tage Gewicht, Körperfett, Lean Mass und Taillen-Verlauf aus Apple Health.
 
-## Nahrungsergänzung
+## Supplements
 
-### Wie tracke ich Nahrungsergänzungsmittel?
-Öffne den Bereich „Nahrungsergänzung" und lege deine eigenen Supplements an (z. B. Protein, Kreatin, Vitamine) — mit einer Standarddosis. Danach kannst du die Einnahme mit einem Tipp erfassen oder eine individuelle Menge eingeben.
+### Wie tracke ich Supplements?
+Geh zum Supplements-Bereich, erstelle eigene (Protein, Kreatin, Vitamine) mit Standarddosis. Erfasse Einnahme mit einem Tipp oder gib eine eigene Menge ein.
 
 ### Kann ich mehrere Dosen pro Tag erfassen?
-Ja. Du kannst dasselbe Supplement mehrmals täglich eintragen. Die App zeigt dir die Gesamtmenge für den Tag im Dashboard an.
+Ja. Das Dashboard zeigt deine Gesamteinnahme pro Supplement.
 
-### Werden Supplement-Einträge über iCloud synchronisiert?
-Ja. Supplement-Einträge werden wie Messungen und Ziele nahtlos über iCloud (CloudKit) zwischen deinen Geräten synchronisiert.
+### Werden Supplement-Logs per iCloud synchronisiert?
+Ja. Supplement-Logs synchronisieren nahtlos per CloudKit, genauso wie Messungen, Workouts, Gewohnheiten und Ziele.
 
-### Kann ich festlegen, wann ich jedes Supplement einnehmen soll?
-Ja. Du kannst Einnahmehinweise wie "morgens", "vor dem Training", "nach dem Training" oder "vor dem Schlafen" zu jedem Supplement hinzufügen. Mehrere Hinweise sind möglich, und du kannst auch eigene Einträge erstellen. Diese werden als Erinnerung in der Supplement-Liste angezeigt.
+### Kann ich festlegen, wann ich jedes Supplement nehme?
+Ja. Füge Timing-Hinweise hinzu wie „morgens", „vor dem Training", „nach dem Training" oder „vor dem Schlafen". Mehrere Zeitpunkte sind erlaubt und du kannst eigene Einträge hinzufügen.
 
-### Kann ich Zeitpläne für Supplements erstellen?
-Ja. Du kannst Supplements täglich, an bestimmten Tagen, alle N Tage oder in Zyklen wie X Tage einnehmen und Y Tage pausieren planen. Außerdem kannst du ein Supplement bis zu einem gewählten Datum pausieren. Die App zeigt an, ob etwas heute fällig, bereits eingenommen, heute nicht geplant oder aktuell pausiert ist.
+### Kann ich Supplement-Pläne erstellen?
+Ja. Täglich, bestimmte Tage, alle N Tage oder Zyklen wie X Tage an / Y Tage aus. Du kannst ein Supplement auch bis zu einem gewählten Datum pausieren. Die App zeigt, ob etwas heute fällig, bereits genommen, nicht geplant oder pausiert ist.
 
 ## Fortschrittsfotos
 
 ### Sind meine Fortschrittsfotos privat?
-Absolut. Fotos werden im privaten Container der App gespeichert — sie erscheinen nie in deiner Fotobibliothek oder Kamerarolle. Du kannst zusätzlich Face ID/Passcode-Schutz aktivieren.
+Absolut. Fotos liegen im privaten App-Container, nie in deiner Kamerarolle oder Fotomediathek. Face-ID/Code-Schutz fügt eine zusätzliche Ebene hinzu.
 
 ### Werden Fortschrittsfotos zwischen Geräten synchronisiert?
-Ja, bei aktivierter iCloud-Synchronisierung werden Fotos sicher über CloudKit als verschlüsselte Assets synchronisiert.
+Ja. Mit aktiviertem iCloud-Sync werden Fortschrittsfotos sicher per CloudKit als verschlüsselte Assets synchronisiert.
 
-## iCloud-Synchronisierung
+## iCloud-Sync
 
-### Was wird über iCloud synchronisiert?
-Messungen, Ziele, Supplement-Einträge und Fortschrittsfotos werden über CloudKit zwischen deinem iPhone, iPad und modernen Macs per iPad-Kompatibilität synchronisiert.
+### Was wird per iCloud synchronisiert?
+Messungen, Ziele, Workouts, Gewohnheiten, Supplement-Logs und Fortschrittsfotos synchronisieren per CloudKit über iPhone, iPad und moderne Macs (per iPad-Kompatibilität).
 
 ### Was bleibt auf meinem Gerät?
-Einstellungen, Präferenzen, HealthKit-Daten und der Abonnementstatus bleiben lokal.
+Einstellungen, Präferenzen, HealthKit-Daten und Abo-Status bleiben lokal.
 
-### Warum muss ich die App nach dem Aktivieren von iCloud neu starten?
-Die Datenbankkonfiguration (lokal vs. Cloud) wird beim App-Start festgelegt. Ein Neustart ist erforderlich, damit die Änderung wirksam wird.
+### Warum muss ich die App neu starten, nachdem ich iCloud aktiviert habe?
+Die Datenbank-Konfiguration (lokal vs. Cloud) wird beim App-Start gesetzt. Ein Neustart wendet die Änderung an.
 
 ## Apple Health
 
 ### Welche Daten liest Mindful Body aus Apple Health?
-Gewicht, Körperfettanteil, BMI, fettfreie Körpermasse und Taillenumfang.
+Gewicht, Körperfettanteil, BMI, Lean Body Mass, Taillenumfang, Schritte und Achtsamkeitsminuten (für Gewohnheiten).
 
 ### Welche Daten schreibt Mindful Body in Apple Health?
-Gewicht, Körperfett, BMI, fettfreie Körpermasse, Taillenumfang und Grundumsatz. Du kannst dies pro Messung ein- oder ausschalten.
+Gewicht, Körperfett, BMI, Lean Body Mass, Taillenumfang und Grundumsatz. Du kannst dies pro Messung umschalten.
 
 ## Support
 
 ### Wie kontaktiere ich den Support?
-Du kannst uns über ein [Issue auf GitHub](https://github.com/aloth/mindful-body/issues/new/choose) erreichen oder die Kontakt-Option in den Einstellungen nutzen.
+[Issue auf GitHub öffnen](https://github.com/aloth/mindful-body/issues/new/choose) oder die Kontakt-Option in den Einstellungen nutzen.
 
-### Wie melde ich einen Fehler?
-[Erstelle einen Bug-Report auf GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml) mit einer Beschreibung des Problems.
+### Wie melde ich einen Bug?
+[Bug Report auf GitHub öffnen](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml). Du kannst auch die „Bug melden"-Option in den Einstellungen nutzen.
 
-### Wie schlage ich eine Funktion vor?
-[Erstelle einen Feature Request auf GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). Wir lesen jeden Vorschlag!
+### Wie schlage ich ein Feature vor?
+[Feature Request auf GitHub öffnen](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). Wir lesen jeden Vorschlag!

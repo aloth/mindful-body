@@ -1,6 +1,6 @@
 🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 [Español](README_es.md) | 🇫🇷 [Français](README_fr.md) | 🇯🇵 **日本語** | 🇨🇳 [中文](README_zh-Hans.md)
 
-# Mindful Body – HealthKit & iCloud同期対応 iPhone・iPad・Mac用体組成トラッカー
+# Mindful Body — iPhone・iPad・Mac 用ワークアウト、習慣、体組成トラッキングアプリ
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/app/id6760477510)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
@@ -8,174 +8,146 @@
 [![GitHub stars](https://img.shields.io/github/stars/aloth/mindful-body?style=social)](https://github.com/aloth/mindful-body/stargazers)
 
 <p align="center">
-  <img src="assets/images/mindful-body-body-composition-tracker-hero.jpg" alt="Mindful Body — body composition tracking with HealthKit, iCloud sync, and progress photos" width="700">
+  <img src="assets/images/mindful-body-body-composition-tracker-hero.jpg" alt="Mindful Body — HealthKit と iCloud 同期に対応した iPhone 用ワークアウト・習慣・体組成トラッキングアプリ" width="700">
 </p>
 
-**明確な視点と自信を持って、身体の変化を追跡しましょう。**
+**Train. Track. Transform.（鍛える、記録する、変える）** ワークアウトルーティンを作り、習慣とストリークを積み重ね、すべての計測を記録し、それらを束ねるひとつの数字 **Body Score** を見守ります。
 
-Mindful Body は、体重、体脂肪率、筋肉量、各部位の周囲径などを記録するために美しく設計されたiOSアプリです。目標を設定し、経過写真を撮影し、データに基づいたインサイトを得られます。Apple Healthとの完全な連携と、iPhone・iPad・iPad互換で動作する最新のMacへのiCloud同期も備えています。
+Mindful Body は、iPhone・iPad・Mac（iPad 互換）向けの、プライバシー第一のワークアウト・習慣・体組成トラッキングアプリです。Apple ヘルスケアと完全連携、iCloud 同期、広告ゼロ。
 
-[Mindful Coffee](https://github.com/aloth/mindful-coffee) とともに **Mindful Apps** ファミリーの一員です。
+[Mindful Coffee](https://github.com/aloth/mindful-coffee) と並ぶ **Mindful Apps** ファミリーの一員です。
 
-## なぜ Mindful Body なのか？
+## なぜ Mindful Body？
 
-多くの体管理アプリは体重を記録するだけです。Mindful Body はさらに深く踏み込み、体全体の組成を追跡し、時系列でのトレンドを可視化し、何が効果的かについての科学的根拠に基づくインサイトを提供します。減量中でも、増量中でも、健康維持を目指す場合でも、このアプリが全体像を把握させてくれます。
+多くのフィットネスアプリは選択を強いられます。ワークアウトログか、習慣トラッカーか、体組成アプリか。Mindful Body はその 3 つすべてをプライバシー第一のひとつのパッケージにまとめ、ひとつの数字でいまの状態を伝えます。減量・増量・筋力アップ・継続のいずれにおいても、全体像と次の一手を示します。
 
 ## 主な機能
 
+### 🏋️ あなたと共に進化するワークアウト
+
+- **ルーティン** — 厳選されたエクササイズライブラリ、またはサンプルプランから構築
+- **ライブセッション** — ワークアウトを実行し、セットを 1 つずつチェック
+- **スマートな漸進性過負荷** — 直近のパフォーマンスに基づく、器具に応じた提案（バーベル、ダンベル、マシン、ケーブル、ケトルベル、自重）
+- **ボリュームのスパークライン** — エクササイズごとのトレーニング量の傾向
+- **除脂肪体重との相互インサイト** — トレーニングが体組成にどう反映されているか
+- **メートル法 / ヤード・ポンド法** — いつでも切り替え、履歴は一貫（保存は kg、表示は選択した単位）
+
+### 🔥 習慣とストリーク
+
+- **3 つのモード** — 避ける（例：「お酒を飲まない」）、する（例：「毎日散歩」）、測る（例：「1 万歩」）
+- **6 つのカテゴリー** — 栄養、回復、運動、メンタル、嗜好品、カスタム
+- **厳選テンプレート** — 検証済みの定義ですぐに開始
+- **ストリーク** — 一度の中断で台無しにしない、継続を称える設計
+- **HealthKit 連携** — 歩数、マインドフル時間、日焼け止めなどを自動取り込み
+
+### 💯 あなたの Body Score、ひとつの数字に集約
+
+- **0〜100 スコア** — 体脂肪率、ウエスト身長比、除脂肪体重指数を組み合わせ
+- **年齢・性別考慮** — Gallagher (2000) と AHA リファレンスで較正
+- **30 日スパークライン** — 平滑化された推定ではなく実際の動きを表示
+- **正直なティア** — Athletic / Healthy / Average / Watch / Risk
+- **コンポーネントペナルティなし** — 入力欠損は分母を減らすだけで、スコアは下げない
+
 ### 📊 完全な身体トラッキング
 
-- **体重 & BMI** — 身長をもとに自動BMI計算を行いながら体重を記録
-- **体組成** — 体脂肪率、筋肉量、内臓脂肪レベル、基礎代謝率（BMR）を追跡
-- **周囲径** — 胸囲、ウエスト、ヒップ、首、腕、太もも — すべて一か所で管理
-- **スマート単位** — メトリック（kg/cm）とインペリアル（lbs/in）をシームレスに切り替え
+- **体重と BMI** — 身長から自動で BMI 計算
+- **体組成** — 体脂肪率、筋肉量、内臓脂肪、基礎代謝量（BMR）
+- **周囲径** — 胸、ウエスト、ヒップ、首、腕、太もも
+- **スマートな単位** — メートル法（kg/cm）とヤード・ポンド法（lbs/in）をシームレスに切替
 
 ### 📈 インサイトとトレンド
 
-- **トレンドチャート** — カスタマイズ可能な期間で、各指標のインタラクティブなチャートを表示
-- **科学的根拠に基づくインサイト** — 体組成の変化、代謝の変化、周囲径のトレンドを把握
-- **記録ストリーク** — ストリーク追跡とマイルストーンの祝福でモチベーションを維持
-- **目標対応ダッシュボード** — 目標達成に向けて順調なときはカードが緑色に変わります
+- **Now と Trends** — 「今日」のスナップショットと、長期の動きを別ビューで
+- **トレンドチャート** — 各指標のインタラクティブなチャート、期間カスタマイズ可
+- **選択可能な KPI チャート** — 「今日」のカードをタップして即座にチャートを切替
+- **科学的根拠あるインサイト** — 体組成変化、代謝、周囲径について引用付きで解説
+- **記録ストリーク** — ストリーク追跡とマイルストーンで継続を後押し
+- **ゴール志向ダッシュボード** — 目標に向かっているとカードがグリーンに
 
 ### 🎯 目標設定
 
-- **柔軟な目標** — 体重、体脂肪率、ウエスト周囲径、またはトラッキング中の任意の指標に対して目標を設定
-- **締め切り** — 任意の期限追跡でアカウンタビリティを維持
-- **達成トラッキング** — 目標を達成したときに祝いましょう
+- **柔軟な目標** — 体重、体脂肪、ウエスト、任意の追跡指標
+- **期限** — 任意の締切設定
+- **達成トラッキング** — 目標到達を祝う
 
-### 📸 経過写真
+### 📸 進捗写真
 
-- **Face ID で保護** — 生体認証によりプライバシーを守る
-- **ポーズカテゴリ** — 正面、背面、左側面、右側面で整理
-- **ビフォー & アフター** — 測定値と並べた視覚的な進捗追跡
-- **iCloud同期** — CloudKit を通じて全デバイスで安全に写真を同期
+- **Face ID で保護** — 生体認証で写真を非公開に保護
+- **ポーズ別** — 正面、背面、左、右で整理
+- **ビフォー & アフター** — 計測値と並べて視覚的に進捗を確認
+- **iCloud 同期** — CloudKit で安全に同期
 
-### 💊 サプリメント追跡
+### 💊 サプリメントトラッキング
 
-- **カスタムサプリメント** — プロテイン、クレアチン、ビタミンなど、デフォルト用量付きで自分のものを作成
-- **摂取タイミング** — 朝、トレーニング前後、就寝前など、各サプリメントの摂取時間を設定
-- **柔軟なスケジュール** — 毎日、特定の曜日、N日ごと、サイクル、または指定日までの一時停止でサプリメントを管理
-- **ワンタップ記録** — デフォルト用量をすばやく記録、またはカスタム量を入力
-- **スマートステータス** — 今日の予定、記録済み、今日は予定なし、一時停止中をひと目で確認
-- **ダッシュボードカード** — 今日の摂取状況を一目で確認
-- **複数回投与のサポート** — 1日複数回の摂取を合計とともに記録
-- **サプリごとのリマインダー** — サプリごとに通知時刻を設定可能
-- **統合ヒストリー** — 測定値とサプリメントを一つのタイムラインで管理
+- **カスタムサプリメント** — プロテイン、クレアチン、ビタミンなどをデフォルト用量付きで作成
+- **タイミングのヒント** — いつ摂るかを設定（朝、ワークアウト前後、就寝前ほか）
+- **柔軟なスケジュール** — 毎日、特定曜日、N 日ごと、サイクル、または指定日まで一時停止
+- **ワンタップ記録** — デフォルト用量の素早い記録、カスタム量も可
+- **スマートステータス** — 今日の予定、摂取済み、未予定、停止中を表示
+- **サプリ別リマインダー** — それぞれに個別の通知時刻
+- **統合履歴** — 計測とサプリメントを 1 つのタイムラインに
 
-### ❤️ Apple Health 連携
+### ❤️ Apple ヘルスケア連携
 
-- **双方向同期** — Apple Health との自動読み書き
-- **自動同期** — アプリ使用中は30秒ごとにApple Healthの新しい記録を確認
-- **ヒストリーのインポート** — HealthKit から最大365日分の体重・体脂肪率・除脂肪体重・ウエスト周囲径データを取り込む
-- **複数の指標** — 体重、体脂肪率、BMI、除脂肪体重、ウエスト周囲径、BMRを同期
+- **双方向同期** — Apple ヘルスケアの自動読み書き
+- **自動同期** — アプリ起動中、30 秒ごとに Apple ヘルスケアをチェック
+- **履歴インポート** — 体重、体脂肪、除脂肪体重、ウエストの最大 365 日分を取り込み
+- **複数指標** — 体重、体脂肪、BMI、除脂肪体重、ウエスト、BMR、歩数、マインドフル時間
 
-### ☁️ iCloud同期
+### ☁️ iCloud 同期
 
-- **シームレスなマルチデバイス対応** — すべての測定値、目標、経過写真がCloudKitを介してiPhone・iPad・iPad互換で動作する最新のMac間で同期
-- **同期状態ダッシュボード** — 同期状態、最終同期時刻の確認と手動同期の実行
-- **重複排除ツール** — 重複レコードをクリーンアップする組み込みのメンテナンス機能
+- **シームレスなマルチデバイス** — 計測、目標、ワークアウト、習慣、写真を CloudKit 経由で同期
+- **同期ステータスダッシュボード** — 状況、最終同期時刻、強制同期
+- **重複排除ツール** — 重複レコードのメンテナンス内蔵
 
 ### 🔔 スマートリマインダー
 
-- **毎日の体重測定** — 毎朝体重計に乗るための優しい通知
-- **週次チェックイン** — 包括的な体組成記録のためのリマインダー
-- **月次経過写真** — 視覚的な進捗を記録することを忘れずに
+- **毎日の体重測定** — 朝の体重計を促す優しい通知
+- **週次チェックイン** — 体組成の包括的記録のリマインダー
+- **月次の進捗写真** — 視覚的な進捗を忘れずに
+- **習慣リマインダー** — 習慣ごとに時刻をカスタマイズ
+- **日焼け止めリマインダー** — 天気と連動
 
-### 🌍 ローカライゼーション
+### 🧭 5 つの明快なタブ
 
-- **6言語対応** — 英語、ドイツ語、スペイン語、フランス語、日本語、中国語（簡体字）
+**Today**（現在のスナップショット）· **Trends**（時系列分析）· **Log**（記録できるすべて）· **Photos**（視覚的な進捗）· **Goals**（目標と達成）
 
-## スクリーンショット
+### 🌍 ローカライズ
 
-<table>
-<tr>
-<td width="50%">
-
-### あなたの完全なダッシュボード
-体重、体脂肪率、BMI、筋肉量 — トレンドチャートと目標対応カラーコードで主要指標を一目で確認。
-
-<img src="screenshots/mindful-body-dashboard-weight-body-fat-bmi-tracking.png" alt="Mindful Body Dashboard showing weight, body fat, BMI tracking with trend charts and goals" width="400"/>
-
-</td>
-<td width="50%">
-
-### ダークモードでも美しく
-目に優しいスタイリッシュなダークテーマで、昼夜を問わず快適に使用できるデザイン。
-
-<img src="screenshots/mindful-body-dark-mode-dashboard-trend-charts.png" alt="Mindful Body Dashboard in Dark Mode" width="400"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 重要なインサイト
-ストリークを追跡し、週次・月次の平均を確認し、体組成の変化に関する科学的根拠に基づくインサイトを取得。
-
-<img src="screenshots/mindful-body-insights-body-composition-analysis.png" alt="Mindful Body Insights showing body composition analysis and logging streaks" width="400"/>
-
-</td>
-<td width="50%">
-
-### すべてを記録
-体重、体脂肪率、筋肉量、BMR、内臓脂肪、周囲径 — 一つの使いやすいフォームで。
-
-<img src="screenshots/mindful-body-log-weight-muscle-mass-circumferences.png" alt="Mindful Body Log view for tracking weight, body composition, and circumferences" width="400"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 視覚的な進捗
-ポーズ別に整理されたFace ID保護の経過写真で変化を記録。
-
-<img src="screenshots/mindful-body-progress-photos-face-id-protected.png" alt="Mindful Body Progress Photos with Face ID protection" width="400"/>
-
-</td>
-<td width="50%">
-
-### 目標を設定し、モチベーションを維持
-ビジュアルインジケーターと達成のお祝いで目標への進捗を追跡。
-
-<img src="screenshots/mindful-body-goals-target-tracking-achievements.png" alt="Mindful Body Goals showing target tracking and achievements" width="400"/>
-
-</td>
-</tr>
-</table>
+- **6 言語** — 英語、ドイツ語、スペイン語、フランス語、日本語、中国語（簡体字）
 
 ## プライバシー
 
-Mindful Body はあなたのプライバシーを真剣に考えています：
+Mindful Body はプライバシーを真剣に扱います：
 
-- **保存のためのカメラロールアクセスなし** — 経過写真はアプリのプライベートコンテナに保存され、フォトライブラリには保存されません
-- **Face ID 保護** — 経過写真は生体認証でロックできます
-- **オンデバイス処理** — すべての計算はローカルで行われます
-- **アナリティクスやトラッキングなし** — サードパーティSDKはゼロ
-- **iCloud 暗号化** — 同期データは転送中も保存中も暗号化されています
-- **あなたのデータはあなたのもの** — 完全なデータエクスポート機能
+- **保存にカメラロールへアクセスしない** — 進捗写真はアプリの非公開コンテナにのみ
+- **Face ID 保護** — 生体認証で写真をロック可能
+- **オンデバイス処理** — Body Score とトレンド計算はすべてローカル
+- **アナリティクス・トラッキング・広告ゼロ** — サードパーティ SDK ゼロ
+- **iCloud 暗号化** — 通信時・保管時とも暗号化
+- **データはあなたのもの** — 完全エクスポートに対応
 
 ## フィードバックとサポート
 
-Mindful Bodyの改善にご協力ください：
+Mindful Body をさらに良くするためにご協力ください：
 
-- **バグを報告:** [Issueを作成](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
-- **機能を提案:** [Feature Requestを作成](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
+- **バグ報告：** [Issue を作成](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
+- **機能リクエスト：** [Feature Request を作成](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
 
 ## 関連プロジェクト
 
-- [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — 睡眠予測とコルチゾールリズムモデリングを備えたスマートなカフェイン追跡
-- [**Trackless Links**](https://github.com/aloth/trackless-links) — URLからトラッカーを削除するSafari拡張機能
+- [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — 睡眠予測とコルチゾールリズムモデリングを備えたスマートなカフェイン管理
+- [**Trackless Links**](https://github.com/aloth/trackless-links) — URL からトラッカーを除去する Safari 拡張機能
 
 ## ライセンス
 
-このリポジトリには、Mindful Body のドキュメント、アセット、サポートファイルが含まれています。
-アプリのソースコードはプロプライエタリです。© 2026 Alexander Loth. All rights reserved.
+このリポジトリは Mindful Body のドキュメント、アセット、サポートファイルを含みます。
+アプリのソースコードは proprietary です。© 2026 Alexander Loth. All rights reserved.
 
 ---
 
 <p align="center">
   <a href="https://apps.apple.com/app/id6760477510">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Mindful Body on the App Store" height="50">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Mindful Body ワークアウト・習慣・体組成トラッカーを App Store でダウンロード" height="50">
   </a>
 </p>

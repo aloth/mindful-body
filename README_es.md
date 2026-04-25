@@ -1,6 +1,6 @@
 🇺🇸 [English](README.md) | 🇩🇪 [Deutsch](README_de.md) | 🇪🇸 **Español** | 🇫🇷 [Français](README_fr.md) | 🇯🇵 [日本語](README_ja.md) | 🇨🇳 [中文](README_zh-Hans.md)
 
-# Mindful Body – Rastreador de Composición Corporal para iPhone, iPad y Mac con HealthKit y sincronización iCloud
+# Mindful Body — App de entrenamientos, hábitos y composición corporal para iPhone, iPad y Mac
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/app/id6760477510)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange?logo=swift&logoColor=white)](https://swift.org)
@@ -8,164 +8,136 @@
 [![GitHub stars](https://img.shields.io/github/stars/aloth/mindful-body?style=social)](https://github.com/aloth/mindful-body/stargazers)
 
 <p align="center">
-  <img src="assets/images/mindful-body-body-composition-tracker-hero.jpg" alt="Mindful Body — body composition tracking with HealthKit, iCloud sync, and progress photos" width="700">
+  <img src="assets/images/mindful-body-body-composition-tracker-hero.jpg" alt="Mindful Body, app de entrenamientos, hábitos y composición corporal para iPhone con HealthKit y sincronización iCloud" width="700">
 </p>
 
-**Sigue tu evolución corporal con claridad y confianza.**
+**Entrena. Registra. Transforma.** Crea rutinas de entrenamiento, construye hábitos y rachas, registra cada medición y observa cómo un solo número, tu **Body Score**, captura cómo todo encaja.
 
-Mindful Body es una hermosa app de iOS para registrar peso, grasa corporal, masa muscular, medidas y más. Establece objetivos, captura fotos de progreso y obtén información basada en datos — todo con integración completa de Apple Health y sincronización iCloud en tu iPhone, iPad y Macs modernos mediante compatibilidad con iPad.
+Mindful Body es la app de entrenamientos, hábitos y composición corporal centrada en la privacidad para iPhone, iPad y Mac (vía compatibilidad con iPad). Integración completa con Apple Health, sincronización iCloud y sin anuncios.
 
-Parte de la familia **Mindful Apps**, junto a [Mindful Coffee](https://github.com/aloth/mindful-coffee).
+Parte de la familia **Mindful Apps**, junto con [Mindful Coffee](https://github.com/aloth/mindful-coffee).
 
 ## ¿Por qué Mindful Body?
 
-La mayoría de los rastreadores corporales solo registran el peso. Mindful Body va más allá — rastrea tu composición corporal completa, visualiza tendencias a lo largo del tiempo y te ofrece información respaldada por la ciencia sobre lo que funciona. Ya sea que estés en déficit, en volumen o simplemente manteniéndote saludable, esta app te da el panorama completo.
+La mayoría de las apps de fitness te obligan a elegir: registro de entrenamientos, tracker de hábitos o composición corporal. Mindful Body es las tres en un paquete centrado en la privacidad, unidas por un solo número que te dice cómo van las cosas. Ya sea definiendo, ganando masa, desarrollando fuerza o simplemente manteniendo la consistencia, Mindful Body te muestra el panorama completo y el siguiente paso.
 
-## Funciones Principales
+## Características clave
 
-### 📊 Seguimiento Corporal Completo
+### 🏋️ Entrenamientos que crecen contigo
 
-- **Peso & BMI** — Registra el peso con cálculo automático de BMI según tu estatura
-- **Composición Corporal** — Rastrea porcentaje de grasa corporal, masa muscular, grasa visceral y tasa metabólica basal
-- **Medidas** — Pecho, cintura, caderas, cuello, brazos y muslos — todo en un solo lugar
-- **Unidades Inteligentes** — Cambia fácilmente entre métrico (kg/cm) e imperial (lbs/in)
+- **Rutinas** — Constrúyelas desde una biblioteca curada de ejercicios o parte de planes de estudio
+- **Sesiones en vivo** — Ejecuta entrenamientos y marca series una a una
+- **Progresión inteligente** — Sugerencias según el equipo basadas en tu última actuación (barra, mancuernas, máquina, polea, kettlebell, peso corporal)
+- **Sparkline de volumen** — Tendencias de volumen de entrenamiento por ejercicio
+- **Cross-insights de masa magra** — Cómo tu entrenamiento se refleja en la composición corporal con el tiempo
+- **Métrico o imperial** — Cambia cuando quieras, el historial se mantiene consistente (almacenamiento en kg, visualización en tu unidad)
 
-### 📈 Información y Tendencias
+### 🔥 Hábitos y rachas
 
-- **Gráficos de Tendencia** — Gráficos interactivos para cada métrica con rangos de tiempo personalizables
-- **Información Científica** — Comprende la recomposición corporal, los cambios metabólicos y las tendencias de medidas
-- **Rachas de Registro** — Mantente motivado con el seguimiento de rachas y la celebración de hitos
-- **Panel Orientado a Objetivos** — Las tarjetas se vuelven verdes cuando estás en camino a tus metas
+- **Tres modos** — Evitar (p. ej. „Sin alcohol"), Hacer (p. ej. „Caminata diaria") o Medir (p. ej. „10 000 pasos")
+- **Seis categorías** — Nutrición, recuperación, movimiento, mentalidad, sustancias, personalizada
+- **Plantillas curadas** — Empieza rápido con definiciones probadas
+- **Rachas** — Premia la constancia sin castigar los tropiezos
+- **Puente con HealthKit** — Importa pasos, minutos de atención plena, protector solar y más
 
-### 🎯 Establecimiento de Objetivos
+### 💯 Tu Body Score, un solo número
 
-- **Objetivos Flexibles** — Establece metas para peso, grasa corporal, circunferencia de cintura o cualquier métrica registrada
-- **Fechas Límite** — Seguimiento opcional de plazos para mantenerte responsable
-- **Seguimiento de Logros** — Celebra cuando alcances tus objetivos
+- **De 0 a 100** — Combina porcentaje de grasa corporal, ratio cintura-altura e índice de masa magra
+- **Adaptado a edad y sexo** — Calibrado contra Gallagher (2000) y referencias de la AHA
+- **Sparkline de 30 días** — Movimiento real, no estimaciones suavizadas
+- **Niveles honestos** — Atlético, saludable, promedio, observar, riesgo
+- **Sin penalización por componentes** — Los datos faltantes reducen el denominador, no tu puntuación
 
-### 📸 Fotos de Progreso
+### 📊 Seguimiento corporal completo
 
-- **Protegidas con Face ID** — Tus fotos permanecen privadas con autenticación biométrica
-- **Categorías de Pose** — Organiza por frente, espalda, lado izquierdo y lado derecho
-- **Antes y Después** — Seguimiento visual del progreso junto a tus medidas
-- **Sincronización iCloud** — Las fotos se sincronizan de forma segura en todos tus dispositivos mediante CloudKit
+- **Peso e IMC** — Registro de peso con cálculo automático de IMC según tu altura
+- **Composición corporal** — Grasa corporal, masa muscular, grasa visceral y tasa metabólica basal
+- **Circunferencias** — Pecho, cintura, caderas, cuello, brazos y muslos en un solo lugar
+- **Unidades inteligentes** — Cambia entre métrico (kg/cm) e imperial (lbs/in) sin problemas
 
-### 💊 Seguimiento de Suplementos
+### 📈 Análisis y tendencias
 
-- **Suplementos Personalizados** — Crea los tuyos propios (proteína, creatina, vitaminas, etc.) con dosis predeterminadas
-- **Indicaciones de toma** — Establece cuándo tomar cada suplemento (mañana, antes del entrenamiento, después del entrenamiento, antes de dormir y más)
-- **Programación Flexible** — Planifica suplementos a diario, en días específicos, cada N días, en ciclos o en pausa hasta una fecha concreta
-- **Registro con Un Toque** — Registra dosis predeterminadas rápidamente o introduce cantidades personalizadas
-- **Estado Inteligente** — Mira de un vistazo qué toca hoy, qué ya tomaste, qué no está programado hoy o qué está en pausa
-- **Tarjeta del Panel** — Estado de ingesta del día de un vistazo
-- **Soporte Multidosis** — Registra varias dosis al día con totales
-- **Recordatorios por suplemento** — Establece una hora de notificación personal para cada suplemento
-- **Historial Unificado** — Mediciones y suplementos en una sola línea de tiempo
+- **Ahora vs. Tendencias** — Una vista „Hoy" más una sección „Tendencias" para movimiento a largo plazo
+- **Gráficos de tendencias** — Gráficos interactivos para cada métrica con rangos personalizables
+- **Gráfico KPI seleccionable** — Toca una tarjeta en „Hoy" para cambiar el gráfico al instante
+- **Insights con base científica** — Explicaciones citadas sobre recomposición, cambios metabólicos y circunferencias
+- **Rachas de registro** — Mantén la motivación con seguimiento de rachas y celebraciones
+- **Dashboard orientado a objetivos** — Las tarjetas se ponen en verde cuando vas en buen camino
+
+### 🎯 Establecimiento de objetivos
+
+- **Objetivos flexibles** — Peso, grasa corporal, cintura o cualquier métrica
+- **Plazos** — Fechas límite opcionales
+- **Seguimiento de logros** — Celebra cuando alcanzas tus metas
+
+### 📸 Fotos de progreso
+
+- **Protegidas con Face ID** — Las fotos quedan privadas con autenticación biométrica
+- **Por pose** — Frente, espalda, lateral izquierdo y lateral derecho
+- **Antes y después** — Progreso visual junto a tus mediciones
+- **Sincronización iCloud** — Las fotos se sincronizan de forma segura vía CloudKit
+
+### 💊 Seguimiento de suplementos
+
+- **Suplementos personalizados** — Crea los tuyos (proteína, creatina, vitaminas) con dosis por defecto
+- **Indicaciones de horario** — Define cuándo tomar cada uno (mañana, antes/después del entrenamiento, antes de dormir, más)
+- **Horarios flexibles** — Diario, días específicos, cada N días, ciclos o pausa hasta una fecha
+- **Registro con un toque** — Registra dosis por defecto rápidamente o introduce cantidades personalizadas
+- **Estado inteligente** — Mira lo que toca hoy, lo ya tomado, lo no programado o lo pausado
+- **Recordatorios por suplemento** — Hora personal de notificación para cada uno
+- **Historial unificado** — Mediciones y suplementos en una sola línea de tiempo
 
 ### ❤️ Integración con Apple Health
 
-- **Sincronización Bidireccional** — Lee y escribe en Apple Health automáticamente
-- **Sincronización automática** — Comprueba Apple Health cada 30 segundos en busca de nuevas entradas mientras la app está activa
-- **Importar Historial** — Importa hasta 365 días de datos de peso, grasa corporal, masa magra y cintura desde HealthKit
-- **Múltiples Métricas** — Sincroniza peso, grasa corporal, BMI, masa corporal magra, circunferencia de cintura y BMR
+- **Sincronización bidireccional** — Lee y escribe en Apple Health automáticamente
+- **Auto-sync** — Comprueba Apple Health cada 30 segundos mientras la app está activa
+- **Importación de historial** — Hasta 365 días de peso, grasa, masa magra y cintura desde HealthKit
+- **Múltiples métricas** — Peso, grasa, IMC, masa magra, cintura, BMR, pasos, minutos de atención plena
 
 ### ☁️ Sincronización iCloud
 
-- **Multidispositivo Sin Esfuerzo** — Todas las mediciones, objetivos y fotos de progreso se sincronizan mediante CloudKit en iPhone, iPad y Macs modernos mediante compatibilidad con iPad
-- **Panel de Estado de Sincronización** — Consulta el estado, la hora del último sync y fuerza la sincronización cuando quieras
-- **Herramienta de Deduplicación** — Mantenimiento integrado para eliminar registros duplicados
+- **Multi-dispositivo sin esfuerzo** — Mediciones, objetivos, entrenamientos, hábitos y fotos vía CloudKit
+- **Panel de estado de sync** — Estado, última hora de sincronización y forzado bajo demanda
+- **Herramienta de deduplicación** — Mantenimiento integrado para registros duplicados
 
-### 🔔 Recordatorios Inteligentes
+### 🔔 Recordatorios inteligentes
 
-- **Pesaje Diario** — Un suave recordatorio para subirse a la báscula cada mañana
-- **Check-in Semanal** — Recordatorio para el registro completo de composición corporal
-- **Foto de Progreso Mensual** — No olvides capturar tu progreso visual
+- **Pesaje diario** — Empujón suave para subirte a la báscula cada mañana
+- **Check-in semanal** — Recordatorio de registro completo de composición corporal
+- **Foto de progreso mensual** — No olvides tu progreso visual
+- **Recordatorios de hábitos** — Por hábito con horas personalizadas
+- **Recordatorio de protector solar** — Vinculado al clima
+
+### 🧭 Cinco pestañas claras
+
+**Hoy** (vista actual) · **Tendencias** (análisis a lo largo del tiempo) · **Registro** (todo lo que puedes anotar) · **Fotos** (progreso visual) · **Objetivos** (metas y logros)
 
 ### 🌍 Localización
 
-- **6 Idiomas** — Inglés, alemán, español, francés, japonés y chino simplificado
-
-## Capturas de Pantalla
-
-<table>
-<tr>
-<td width="50%">
-
-### Tu Panel Completo
-Peso, grasa corporal, BMI, masa muscular — todas tus métricas clave de un vistazo con gráficos de tendencia y codificación de colores orientada a objetivos.
-
-<img src="screenshots/mindful-body-dashboard-weight-body-fat-bmi-tracking.png" alt="Mindful Body Dashboard showing weight, body fat, BMI tracking with trend charts and goals" width="400"/>
-
-</td>
-<td width="50%">
-
-### Bello en Modo Oscuro
-Diseñado para el día y la noche con un impresionante tema oscuro que cuida tus ojos.
-
-<img src="screenshots/mindful-body-dark-mode-dashboard-trend-charts.png" alt="Mindful Body Dashboard in Dark Mode" width="400"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### Información que Importa
-Sigue tus rachas, consulta promedios semanales y mensuales, y obtén información científica sobre los cambios en tu composición corporal.
-
-<img src="screenshots/mindful-body-insights-body-composition-analysis.png" alt="Mindful Body Insights showing body composition analysis and logging streaks" width="400"/>
-
-</td>
-<td width="50%">
-
-### Registra Todo
-Peso, grasa corporal, masa muscular, BMR, grasa visceral y medidas — todo en un formulario simplificado.
-
-<img src="screenshots/mindful-body-log-weight-muscle-mass-circumferences.png" alt="Mindful Body Log view for tracking weight, body composition, and circumferences" width="400"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### Progreso Visual
-Captura tu transformación con fotos de progreso protegidas por Face ID organizadas por pose.
-
-<img src="screenshots/mindful-body-progress-photos-face-id-protected.png" alt="Mindful Body Progress Photos with Face ID protection" width="400"/>
-
-</td>
-<td width="50%">
-
-### Establece Objetivos, Mantente Motivado
-Sigue el progreso hacia tus metas con indicadores visuales y celebraciones de logros.
-
-<img src="screenshots/mindful-body-goals-target-tracking-achievements.png" alt="Mindful Body Goals showing target tracking and achievements" width="400"/>
-
-</td>
-</tr>
-</table>
+- **6 idiomas** — Inglés, alemán, español, francés, japonés y chino (simplificado)
 
 ## Privacidad
 
-Mindful Body se toma tu privacidad muy en serio:
+Mindful Body se toma tu privacidad en serio:
 
-- **Sin acceso al carrete para guardar** — Las fotos de progreso se almacenan en el contenedor privado de la app, nunca en tu biblioteca de fotos
-- **Protección con Face ID** — Las fotos de progreso pueden bloquearse con autenticación biométrica
-- **Procesamiento en el dispositivo** — Todos los cálculos se realizan localmente
-- **Sin análisis ni rastreo** — Cero SDKs de terceros
+- **Sin acceso al rollo de cámara para guardar** — Las fotos viven en el contenedor privado de la app, nunca en tu fototeca
+- **Protección con Face ID** — Las fotos pueden bloquearse con biometría
+- **Procesamiento en el dispositivo** — El Body Score y los cálculos de tendencias se hacen localmente
+- **Sin analítica, sin tracking, sin anuncios** — Cero SDKs de terceros
 - **Cifrado iCloud** — Los datos sincronizados están cifrados en tránsito y en reposo
-- **Tus datos son tuyos** — Capacidad completa de exportación de datos
+- **Tus datos son tuyos** — Exportación completa disponible
 
-## Feedback y soporte
+## Comentarios y soporte
 
 Ayuda a mejorar Mindful Body:
 
-- **Reportar un error:** [Abrir un Issue](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
-- **Sugerir una función:** [Abrir un Feature Request](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
+- **Reportar un bug:** [Abrir un issue](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml)
+- **Sugerir una función:** [Abrir feature request](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml)
 
-## Proyectos Relacionados
+## Proyectos relacionados
 
 - [**Mindful Coffee**](https://github.com/aloth/mindful-coffee) — Seguimiento inteligente de cafeína con predicción del sueño y modelado del ritmo de cortisol
-- [**Trackless Links**](https://github.com/aloth/trackless-links) — Extensión de Safari para eliminar rastreadores de URLs
+- [**Trackless Links**](https://github.com/aloth/trackless-links) — Extensión de Safari para eliminar trackers de URLs
 
 ## Licencia
 
@@ -176,6 +148,6 @@ El código fuente de la app es propietario. © 2026 Alexander Loth. Todos los de
 
 <p align="center">
   <a href="https://apps.apple.com/app/id6760477510">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Mindful Body on the App Store" height="50">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Descarga Mindful Body, app de entrenamientos, hábitos y composición corporal en el App Store" height="50">
   </a>
 </p>

@@ -1,89 +1,134 @@
 🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 **Español** | 🇫🇷 [Français](FAQ_fr.md) | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
 
-# Preguntas Frecuentes
+# Preguntas frecuentes
 
 ## General
 
 ### ¿Qué es Mindful Body?
-Mindful Body es una app de iOS para hacer seguimiento de tu composición corporal — peso, grasa corporal, masa muscular, circunferencias y más. Ofrece información basada en datos y seguimiento del progreso para ayudarte a alcanzar tus objetivos de salud.
+Mindful Body es una app de iOS que combina un tracker de entrenamientos, un tracker de hábitos y un tracker de composición corporal en un único paquete centrado en la privacidad. Crea rutinas, sigue hábitos diarios, registra mediciones y observa cómo un solo número, tu Body Score, captura cómo todo encaja.
 
-### ¿Es Mindful Body gratuita?
-Mindful Body ofrece una prueba gratuita de 7 días. Después puedes continuar con una suscripción o una compra de por vida.
+### ¿Es gratis Mindful Body?
+Mindful Body ofrece una prueba gratuita de 7 días. Después puedes continuar con una suscripción mensual o anual, o con una compra única de por vida.
 
 ### ¿Qué dispositivos admite Mindful Body?
-Mindful Body funciona en iPhone, iPad y Macs modernos mediante compatibilidad con iPad con iOS 17 o posterior.
+Mindful Body funciona en iPhone, iPad y Macs modernos (vía compatibilidad con iPad) con iOS 17 o posterior.
 
-### ¿En qué idiomas está disponible la app?
-Mindful Body está completamente localizada en 6 idiomas: inglés, alemán, español, francés, japonés y chino simplificado.
+### ¿Qué idiomas admite la app?
+Mindful Body está totalmente localizada en 6 idiomas: inglés, alemán, español, francés, japonés y chino (simplificado).
+
+## Entrenamientos
+
+### ¿Cómo funcionan los entrenamientos en Mindful Body?
+Crea rutinas desde una biblioteca curada de ejercicios o parte de planes tipo estudio. Cuando entrenes, ejecuta una sesión en vivo y marca series una a una. La app graba cada serie de trabajo para que tengas un historial real del que aprender.
+
+### ¿Qué es la „progresión inteligente"?
+Tras cada sesión, Mindful Body mira tu última actuación y sugiere el siguiente salto. El incremento depende del equipo: barra, máquina y polea avanzan en pasos de 2,5 kg; mancuernas y kettlebell en 1,0 kg; peso corporal y cardio no cambian. La regla: si cada serie top alcanzó tu rep alto, sube. Si cada serie top tocó el rep bajo, mantén. En cualquier otro caso, baja un paso.
+
+### ¿Puedo ver cómo afecta mi entrenamiento a la composición corporal?
+Sí. La pestaña Tendencias muestra cross-insights de masa magra ligados a tu volumen de entrenamiento, para ver cómo el trabajo se refleja en el cuerpo, no solo en la barra.
+
+### ¿Mindful Body admite unidades imperiales en entrenamientos?
+Sí. Activa Métrico o Imperial en Ajustes y los pesos, la entrada de series, las pistas de la última sesión y los badges de volumen cambian. El almacenamiento sigue en kg por debajo, así tu historial se mantiene consistente si vuelves a cambiar.
+
+## Hábitos y rachas
+
+### ¿Cómo funcionan los hábitos?
+Los hábitos vienen en tres modos: Evitar (p. ej. „Sin alcohol"), Hacer (p. ej. „Caminata diaria") y Medir (p. ej. „10 000 pasos"). Elige plantillas curadas en nutrición, recuperación, movimiento, mentalidad y sustancias, o crea las tuyas.
+
+### ¿Cómo se cuentan las rachas?
+Cada hábito tiene una racha que premia la constancia. Los tropiezos no te castigan para siempre, la racha se reinicia y empiezas de nuevo.
+
+### ¿Pueden los hábitos leer de Apple Health?
+Sí. El puente con HealthKit puede traer pasos, minutos de atención plena, protector solar y otras métricas compatibles para que los hábitos elegibles se actualicen solos.
+
+## Body Score
+
+### ¿Qué es el Body Score?
+El Body Score es un solo número de 0 a 100 que combina porcentaje de grasa corporal (40 %), ratio cintura-altura (30 %) e índice de masa magra (20 %). Cuando falta la grasa corporal, el IMC ocupa su lugar (30 %). Una bonificación de tendencia a 30 días aporta hasta un 10 %.
+
+### ¿El Body Score considera edad y sexo?
+Sí. El score está calibrado contra Gallagher (2000) y referencias de la AHA y se ajusta por edad (18–39 base; 40–59 +1 punto porcentual ideal / +2 límite aceptable; 60+ +3/+4) y sexo biológico.
+
+### ¿Por qué mi puntuación no baja cuando faltan datos?
+Por diseño. Los componentes faltantes reducen el denominador en lugar de poner la puntuación a cero. No te penalizamos por no tener aún una báscula de grasa corporal.
+
+### ¿Qué significan los niveles?
+- 85+ Atlético
+- 70–84 Saludable
+- 55–69 Promedio
+- 40–54 Observar
+- < 40 Riesgo
+
+Las etiquetas son honestas, no aduladoras. Pretenden ayudar, no vender.
 
 ## Seguimiento
 
-### ¿Qué métricas puedo registrar?
+### ¿Qué métricas puedo seguir?
 - Peso (kg o lbs)
 - Porcentaje de grasa corporal
 - Porcentaje de masa muscular
 - Nivel de grasa visceral
 - Tasa metabólica basal (BMR)
 - IMC (calculado automáticamente)
-- Circunferencias: pecho, cintura, caderas, cuello, brazos y muslos
+- Circunferencias: pecho, cintura, caderas, cuello, brazos, muslos
 
 ### ¿Necesito una báscula inteligente?
-No. Puedes introducir todas las medidas manualmente. Sin embargo, si usas una báscula inteligente que sincroniza con Apple Salud, Mindful Body puede importar esos datos automáticamente.
+No. Puedes introducir todas las mediciones manualmente. Si usas una báscula inteligente que escribe en Apple Health, Mindful Body importa automáticamente.
 
 ### ¿Puedo importar mis datos de peso existentes?
-¡Sí! Mindful Body puede importar hasta 365 días de historial de peso, grasa corporal, masa magra y cintura desde Apple Salud con un solo toque.
+Sí. Mindful Body importa hasta 365 días de peso, grasa corporal, masa magra y cintura desde Apple Health con un solo toque.
 
 ## Suplementos
 
 ### ¿Cómo registro suplementos?
-Ve a la sección «Suplementos» y crea los tuyos propios (p. ej., proteína, creatina, vitaminas) con una dosis predeterminada. A partir de ahí, puedes registrar la ingesta con un solo toque o introducir una cantidad personalizada.
+Ve a la sección de Suplementos, crea los tuyos (proteína, creatina, vitaminas) con dosis por defecto. Registra la toma con un toque o introduce una cantidad personalizada.
 
 ### ¿Puedo registrar varias dosis al día?
-Sí. Puedes registrar varias dosis del mismo suplemento a lo largo del día. La app muestra el total diario de cada suplemento en el panel principal.
+Sí. El panel muestra tu ingesta total por suplemento.
 
-### ¿Los registros de suplementos se sincronizan mediante iCloud?
-Sí. Los registros de suplementos se sincronizan entre tus dispositivos a través de iCloud (CloudKit), igual que las mediciones y los objetivos.
+### ¿Los registros de suplementos se sincronizan vía iCloud?
+Sí. Los registros se sincronizan sin problemas vía CloudKit, igual que mediciones, entrenamientos, hábitos y objetivos.
 
-### ¿Puedo establecer cuándo tomar cada suplemento?
-Sí. Puedes añadir indicaciones como "mañana", "antes del entrenamiento", "después del entrenamiento" o "antes de dormir" a cada suplemento. Puedes seleccionar varios momentos y también crear entradas personalizadas. Se muestran como recordatorios en la lista de suplementos.
+### ¿Puedo definir cuándo tomo cada suplemento?
+Sí. Añade indicaciones como „mañana", „antes del entrenamiento", „después del entrenamiento" o „antes de dormir". Se permiten múltiples horarios y puedes añadir entradas personalizadas.
 
-### ¿Puedo crear programaciones para los suplementos?
-Sí. Puedes configurar suplementos para repetir a diario, en días específicos, cada N días o en ciclos como X días de toma y Y días de pausa. También puedes pausar un suplemento hasta una fecha concreta. La app indica si algo toca hoy, ya fue tomado, no está programado hoy o está en pausa.
+### ¿Puedo crear horarios de suplementos?
+Sí. Diario, días específicos, cada N días o ciclos como X días sí / Y días no. También puedes pausar un suplemento hasta una fecha. La app indica si toca hoy, ya tomado, no programado o pausado.
 
-## Fotos de Progreso
+## Fotos de progreso
 
-### ¿Son privadas mis fotos de progreso?
-Por supuesto. Las fotos se almacenan en el contenedor privado de la app — nunca aparecen en tu carrete ni en tu fototeca. También puedes activar la protección con Face ID o código para mayor privacidad.
+### ¿Mis fotos de progreso son privadas?
+Absolutamente. Las fotos viven en el contenedor privado de la app, nunca en tu rollo de cámara o fototeca. La protección con Face ID o código añade una capa extra.
 
 ### ¿Las fotos de progreso se sincronizan entre dispositivos?
-Sí, cuando la sincronización con iCloud está activada, las fotos se sincronizan de forma segura a través de CloudKit como activos cifrados.
+Sí. Con la sincronización iCloud activada, las fotos se sincronizan de forma segura vía CloudKit como activos cifrados.
 
-## Sincronización con iCloud
+## Sincronización iCloud
 
-### ¿Qué se sincroniza mediante iCloud?
-Las mediciones, los objetivos, los registros de suplementos y las fotos de progreso se sincronizan a través de CloudKit entre tu iPhone, iPad y Macs modernos mediante compatibilidad con iPad.
+### ¿Qué se sincroniza vía iCloud?
+Mediciones, objetivos, entrenamientos, hábitos, registros de suplementos y fotos de progreso se sincronizan vía CloudKit en iPhone, iPad y Macs modernos (vía compatibilidad con iPad).
 
-### ¿Qué permanece en mi dispositivo?
-La configuración, las preferencias, los datos de HealthKit y el estado de la suscripción permanecen en local.
+### ¿Qué se queda en mi dispositivo?
+Ajustes, preferencias, datos de HealthKit y estado de la suscripción permanecen locales.
 
-### ¿Por qué debo reiniciar la app después de activar iCloud?
-La configuración de la base de datos (local o en la nube) se establece al iniciar la app. Es necesario reiniciarla para que el cambio surta efecto.
+### ¿Por qué necesito reiniciar la app tras activar iCloud?
+La configuración de la base de datos (local vs. nube) se establece al arrancar la app. Un reinicio aplica el cambio.
 
-## Apple Salud
+## Apple Health
 
-### ¿Qué datos lee Mindful Body de Apple Salud?
-Peso, porcentaje de grasa corporal, IMC, masa corporal magra y circunferencia de cintura.
+### ¿Qué datos lee Mindful Body de Apple Health?
+Peso, porcentaje de grasa corporal, IMC, masa magra, circunferencia de cintura, pasos y minutos de atención plena (para hábitos).
 
-### ¿Qué datos escribe Mindful Body en Apple Salud?
-Peso, grasa corporal, IMC, masa corporal magra, circunferencia de cintura y energía basal quemada. Puedes activar o desactivar esto por cada medición.
+### ¿Qué datos escribe Mindful Body en Apple Health?
+Peso, grasa, IMC, masa magra, cintura y energía basal quemada. Puedes alternarlo por medición.
 
 ## Soporte
 
-### ¿Cómo contacto con el soporte?
-Puedes contactarnos [abriendo un Issue en GitHub](https://github.com/aloth/mindful-body/issues/new/choose) o usando la opción Contacto en Ajustes.
+### ¿Cómo contacto con soporte?
+[Abre un issue en GitHub](https://github.com/aloth/mindful-body/issues/new/choose) o usa la opción Contacto en Ajustes.
 
-### ¿Cómo informo de un error?
-[Abre un reporte de error en GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml) con una descripción del problema.
+### ¿Cómo reporto un bug?
+[Abre un bug report en GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml). También puedes usar „Reportar un bug" en Ajustes.
 
 ### ¿Cómo sugiero una función?
-[Abre un Feature Request en GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). ¡Leemos cada sugerencia!
+[Abre un feature request en GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). ¡Leemos cada sugerencia!

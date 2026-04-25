@@ -3,29 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mindful Body - Track body composition, supplement schedules, progress photos, and Apple Health data with clarity and confidence on iOS.">
-    <meta name="keywords" content="body composition tracker, supplement tracker, supplement schedule, weight tracker, body fat tracker, muscle mass, BMR, visceral fat, progress photos, Apple Health, HealthKit, iOS app, fitness app">
+    <meta name="description" content="Mindful Body is the privacy-first iOS app for workouts, habits and body composition. Build routines, track streaks, log measurements and watch one Body Score from 0 to 100 capture how it all comes together. With Apple Health and iCloud sync.">
+    <meta name="keywords" content="workout tracker, habit tracker, body composition tracker, body score, weight tracker, body fat tracker, muscle mass, BMR, visceral fat, progress photos, supplement tracker, streaks, Apple Health, HealthKit, iOS app, fitness app, gym log, strength training">
     <meta name="author" content="Alexander Loth">
-    
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://aloth.github.io/mindful-body/">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://github.com/aloth/mindful-body">
-    <meta property="og:title" content="Mindful Body - Body Composition Tracker for iOS">
-    <meta property="og:description" content="Track body composition, supplement schedules, progress photos, and Apple Health data with clarity and confidence.">
-    
+    <meta property="og:site_name" content="Mindful Body">
+    <meta property="og:url" content="https://aloth.github.io/mindful-body/">
+    <meta property="og:title" content="Mindful Body — Workout, Habit & Body Composition Tracker for iOS">
+    <meta property="og:description" content="Build workout routines, track habits and streaks, log measurements and watch your Body Score (0–100). Privacy-first. Apple Health & iCloud sync.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/aloth/mindful-body/main/assets/images/mindful-body-body-composition-tracker-hero.jpg">
+    <meta property="og:image:alt" content="Mindful Body workout, habit and body composition tracker on iPhone">
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://github.com/aloth/mindful-body">
-    <meta property="twitter:title" content="Mindful Body - Body Composition Tracker for iOS">
-    <meta property="twitter:description" content="Track body composition and supplement schedules with clarity and confidence.">
-    
+    <meta property="twitter:url" content="https://aloth.github.io/mindful-body/">
+    <meta property="twitter:title" content="Mindful Body — Workout, Habit & Body Composition Tracker for iOS">
+    <meta property="twitter:description" content="Build workout routines, track habits and streaks, log measurements and watch your Body Score (0–100). Privacy-first. Apple Health & iCloud sync.">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/aloth/mindful-body/main/assets/images/mindful-body-body-composition-tracker-hero.jpg">
+    <meta property="twitter:creator" content="@xlth">
+
     <!-- Apple -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
-    <title>Mindful Body - Body Composition Tracker for iOS</title>
-    
+
+    <title>Mindful Body — Workout, Habit & Body Composition Tracker for iOS</title>
+
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Mindful Body",
+      "alternateName": "Mindful Body: Train & Track",
+      "description": "Workout tracker, habit tracker and body composition app for iPhone, iPad and Mac. Build routines, run live sessions, track habits and streaks, log measurements and see your Body Score (0–100). Privacy-first with Apple Health and iCloud sync.",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Fitness",
+      "operatingSystem": "iOS 17+",
+      "url": "https://aloth.github.io/mindful-body/",
+      "downloadUrl": "https://apps.apple.com/app/id6760477510",
+      "image": "https://raw.githubusercontent.com/aloth/mindful-body/main/assets/images/mindful-body-body-composition-tracker-hero.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Alexander Loth",
+        "url": "https://alexloth.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free 7-day trial. Subscription from $1.99/month or $19.99 lifetime."
+      },
+      "featureList": [
+        "Workout routines and live sessions",
+        "Smart, equipment-aware progression",
+        "Habit tracker with streaks (Avoid / Do It / Measure)",
+        "Body Score (0–100), age and sex aware",
+        "Body composition tracking (weight, body fat, muscle, BMR, visceral fat)",
+        "Circumference tracking (waist, hips, chest, neck, arms, thighs)",
+        "Progress photos protected by Face ID",
+        "Supplement tracking with flexible schedules",
+        "Two-way Apple Health (HealthKit) integration",
+        "iCloud (CloudKit) sync across devices",
+        "Metric and imperial units",
+        "Localized in English, German, Spanish, French, Japanese, Chinese"
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Body Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Body Score is a single number from 0 to 100 that combines body fat percentage, waist-to-height ratio and lean mass index. It is age- and sex-aware (calibrated against Gallagher 2000 / AHA references) and includes a 30-day trend bonus. Honest tiers: Athletic 85+, Healthy 70–84, Average 55–69, Watch 40–54, Risk under 40."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do workouts work in Mindful Body?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Build routines from a curated exercise library or start from sample studio plans, then run live sessions and check off sets one by one. After each session the app suggests the next jump using equipment-aware increments (2.5 kg for barbell/machine/cable, 1.0 kg for dumbbell/kettlebell). Metric or imperial display, kg storage so history stays consistent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do habits and streaks work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Habits come in three modes: Avoid (e.g. No alcohol), Do It (e.g. daily walk), or Measure (e.g. 10,000 steps). Pick from curated templates across nutrition, recovery, movement, mindset, and substance categories or create your own. Streaks reward consistency without punishing slip-ups, and HealthKit can update qualifying habits automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are my progress photos private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Progress photos are protected by Face ID or Touch ID and stored in the app's private container, never in your camera roll. They sync only through your private iCloud account (CloudKit) and are never shared with third parties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Mindful Body work with Apple Health?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Two-way HealthKit integration reads weight, body fat, lean mass, waist, steps and mindful minutes from Apple Health, auto-checks every 30 seconds while the app is active, imports up to 365 days of history in one tap, and writes your logged data back to Health."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it sync across my devices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. iCloud / CloudKit syncs measurements, goals, workouts, habits, supplement logs and progress photos across iPhone, iPad and modern Macs via iPad compatibility, as long as you are signed into the same Apple ID."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -60,11 +167,11 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="hero-title">
-                        Track Your Body,<br>
-                        <span class="gradient-text">Master Your Health</span>
+                        Train. Track.<br>
+                        <span class="gradient-text">Transform.</span>
                     </h1>
                     <p class="hero-subtitle">
-                        Track your body composition journey with clarity and confidence. From weight and body fat to supplement schedules, progress photos, and smart insights — everything you need to reach your goals.
+                        Build workout routines, run habits and streaks, log every measurement, and watch one number, your Body Score, capture how it all comes together. Privacy-first, ad-free, with Apple Health and iCloud sync.
                     </p>
                     <div class="hero-buttons">
                         <a href="https://apps.apple.com/app/id6760477510" class="btn-primary btn-large" target="_blank">
@@ -98,45 +205,69 @@
             
             <div class="features-grid">
                 <div class="feature-card featured">
+                    <div class="feature-icon">🏋️</div>
+                    <h3 class="feature-title">Workouts That Grow With You</h3>
+                    <p class="feature-description">Build routines from a curated exercise library, run live sessions and check off sets one by one. Smart, equipment-aware progression suggests your next jump based on your last performance. Volume sparkline and lean-mass cross-insights tie training to body composition.</p>
+                </div>
+
+                <div class="feature-card featured">
+                    <div class="feature-icon">🔥</div>
+                    <h3 class="feature-title">Habits & Streaks</h3>
+                    <p class="feature-description">Three modes — Avoid, Do It, or Measure. Six categories from nutrition to mindset. Streaks reward consistency without punishing slip-ups. HealthKit bridges steps, mindful minutes, and more so qualifying habits update on their own.</p>
+                </div>
+
+                <div class="feature-card featured">
+                    <div class="feature-icon">💯</div>
+                    <h3 class="feature-title">Your Body Score</h3>
+                    <p class="feature-description">A single number from 0 to 100 that combines body fat, waist-to-height and lean mass. Age- and sex-aware (Gallagher 2000 / AHA). 30-day sparkline shows real movement, not smoothed estimates. Honest tiers: athletic, healthy, average, watch, risk.</p>
+                </div>
+
+                <div class="feature-card">
                     <div class="feature-icon">⚖️</div>
                     <h3 class="feature-title">Complete Body Tracking</h3>
-                    <p class="feature-description">Track weight, body fat percentage, muscle mass, BMR, visceral fat, and circumferences — all in one place. The most comprehensive body composition log for iOS.</p>
+                    <p class="feature-description">Weight, body fat percentage, muscle mass, BMR, visceral fat, and circumferences (waist, hips, chest, neck, arms, thighs) in one place. Metric or imperial, switch any time.</p>
                 </div>
-                
+
                 <div class="feature-card">
                     <div class="feature-icon">📈</div>
-                    <h3 class="feature-title">Smart Insights & Trends</h3>
-                    <p class="feature-description">Interactive charts and trend analysis help you see the big picture. Science-backed insights explain what your numbers mean and how to improve them.</p>
+                    <h3 class="feature-title">Now vs. Trends</h3>
+                    <p class="feature-description">Today shows your right-now snapshot. Trends shows movement over time. Selectable KPI chart, scope-stable highlights, and cited insights explain what your numbers actually mean.</p>
                 </div>
-                
+
                 <div class="feature-card">
                     <div class="feature-icon">🎯</div>
                     <h3 class="feature-title">Goal Setting</h3>
-                    <p class="feature-description">Set flexible goals for any metric with deadline tracking. Whether you're aiming to lose fat, gain muscle, or hit a specific weight — Mindful Body keeps you on track.</p>
+                    <p class="feature-description">Set targets for weight, body fat, waist, or any tracked metric. Optional deadlines. Visual progress and achievement celebrations.</p>
                 </div>
-                
+
                 <div class="feature-card">
                     <div class="feature-icon">📸</div>
                     <h3 class="feature-title">Progress Photos</h3>
-                    <p class="feature-description">Document your transformation with progress photos. Protected by Face ID/Touch ID, organized by pose categories, and synced securely via iCloud.</p>
+                    <p class="feature-description">Capture your transformation with Face ID protection, pose-aware organization (front, back, side-left, side-right), and side-by-side comparisons over time.</p>
                 </div>
-                
+
                 <div class="feature-card">
                     <div class="feature-icon">💊</div>
                     <h3 class="feature-title">Supplement Tracking</h3>
-                    <p class="feature-description">Create custom supplements with default doses, timing hints, and flexible schedules. Plan them daily, on specific days, every N days, in cycles, or pause them until a chosen date — with clear due, taken, and paused states.</p>
+                    <p class="feature-description">Custom supplements with default doses, timing hints, and flexible schedules. Daily, specific days, every N days, cycles or pause until a chosen date. Clear due, taken, and paused states.</p>
                 </div>
-                
+
                 <div class="feature-card">
                     <div class="feature-icon">🍎</div>
                     <h3 class="feature-title">Apple Health Integration</h3>
-                    <p class="feature-description">Two-way sync with HealthKit keeps all your health data in one place. Read and write body measurements seamlessly, auto-check Apple Health every 30 seconds while the app is active, and import weight, body fat, lean mass, and waist history.</p>
+                    <p class="feature-description">Two-way HealthKit sync. Auto-checks every 30 seconds while the app is active. Imports up to 365 days of weight, body fat, lean mass, and waist history. Pulls steps and mindful minutes for habits.</p>
                 </div>
-                
+
                 <div class="feature-card">
                     <div class="feature-icon">☁️</div>
                     <h3 class="feature-title">iCloud Sync</h3>
-                    <p class="feature-description">Your data follows you everywhere. Seamless multi-device sync via CloudKit keeps your iPhone, iPad, and modern Macs via iPad compatibility in sync automatically.</p>
+                    <p class="feature-description">Measurements, goals, workouts, habits, supplements, and progress photos sync via CloudKit across iPhone, iPad and modern Macs (via iPad compatibility).</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Privacy First</h3>
+                    <p class="feature-description">All data stays on your device or in your private iCloud. No analytics, no tracking, no ads. Body Score and trend math run on-device. Your body data is your business.</p>
                 </div>
             </div>
         </div>
@@ -190,16 +321,52 @@
             <div class="faq-list">
                 <div class="faq-item">
                     <button class="faq-question" aria-expanded="false">
+                        <span>What is the Body Score?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The <strong>Body Score</strong> is a single number from 0 to 100 that combines body fat percentage, waist-to-height ratio and lean mass index. It is <strong>age- and sex-aware</strong> (calibrated against Gallagher 2000 / AHA references) and includes a 30-day trend bonus. Honest tiers: Athletic 85+, Healthy 70–84, Average 55–69, Watch 40–54, Risk under 40.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do workouts work in Mindful Body?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Build routines from a curated exercise library or start from sample studio plans, then run a live session and check off sets one by one. After each session the app suggests the next jump using <strong>equipment-aware increments</strong> (2.5 kg for barbell, machine, cable; 1.0 kg for dumbbell, kettlebell). Metric or imperial display, kg storage so history stays consistent.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do habits and streaks work?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Habits come in three modes: <strong>Avoid</strong> (e.g. "No alcohol"), <strong>Do It</strong> (e.g. daily walk), or <strong>Measure</strong> (e.g. 10,000 steps). Pick from curated templates across nutrition, recovery, movement, mindset and substance categories or create your own. Streaks reward consistency without punishing slip-ups, and HealthKit can update qualifying habits automatically.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
                         <span>What metrics can I track?</span>
                         <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M6 9l6 6 6-6"/>
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Mindful Body supports a comprehensive set of body metrics: <strong>weight</strong>, <strong>body fat percentage</strong>, <strong>muscle mass</strong>, <strong>BMR (Basal Metabolic Rate)</strong>, <strong>visceral fat level</strong>, and <strong>body circumferences</strong> (waist, hips, chest, arms, legs, and more). You can log as many or as few as you like — the app works with any smart scale or manual entry.</p>
+                        <p>A comprehensive set of body metrics: <strong>weight</strong>, <strong>body fat percentage</strong>, <strong>muscle mass</strong>, <strong>BMR</strong>, <strong>visceral fat level</strong>, and <strong>circumferences</strong> (waist, hips, chest, arms, neck, thighs). Plus workouts, habits, supplements and progress photos. Log as many or as few as you like.</p>
                     </div>
                 </div>
-                
+
                 <div class="faq-item">
                     <button class="faq-question" aria-expanded="false">
                         <span>Are my progress photos private?</span>
@@ -208,10 +375,10 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Absolutely. Progress photos are protected by <strong>Face ID or Touch ID</strong> — you need to authenticate to view them. Photos are stored securely on your device and synced via your private iCloud account (CloudKit). They are <strong>never shared with third parties</strong> and never leave your personal iCloud storage.</p>
+                        <p>Absolutely. Progress photos are protected by <strong>Face ID or Touch ID</strong>, stored in the app's private container (never in your camera roll), and synced only via your private iCloud account (CloudKit). Never shared with third parties.</p>
                     </div>
                 </div>
-                
+
                 <div class="faq-item">
                     <button class="faq-question" aria-expanded="false">
                         <span>Does it sync across my devices?</span>
@@ -220,31 +387,7 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes! Mindful Body uses <strong>iCloud / CloudKit</strong> for seamless multi-device sync. All your measurements, goals, and photos stay in sync across your iPhone, iPad, and modern Macs via iPad compatibility — as long as you're signed into the same Apple ID.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <button class="faq-question" aria-expanded="false">
-                        <span>Do I need a smart scale?</span>
-                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M6 9l6 6 6-6"/>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>No smart scale required! You can <strong>manually enter</strong> any metric directly in the app. If you do have a smart scale that syncs with Apple Health, Mindful Body can automatically read those measurements via HealthKit integration — making logging effortless.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <button class="faq-question" aria-expanded="false">
-                        <span>Can I create supplement schedules?</span>
-                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M6 9l6 6 6-6"/>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes. You can schedule supplements daily, on specific days, every N days, or in cycles like X days on and Y days off. You can also pause a supplement until a chosen date. Mindful Body highlights whether a supplement is due today, already taken, not scheduled today, or currently paused.</p>
+                        <p>Yes. <strong>iCloud / CloudKit</strong> syncs measurements, goals, workouts, habits, supplements, and progress photos across iPhone, iPad and modern Macs via iPad compatibility, as long as you are signed into the same Apple ID.</p>
                     </div>
                 </div>
 
@@ -256,7 +399,19 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes — Mindful Body has <strong>two-way HealthKit integration</strong>. It reads body measurements from Apple Health, checks for new entries every 30 seconds while the app is active, imports up to 365 days of weight, body fat, lean mass, and waist history, and writes your logged data back to Apple Health.</p>
+                        <p>Yes. <strong>Two-way HealthKit integration</strong> reads weight, body fat, lean mass, waist, steps and mindful minutes from Apple Health, auto-checks every 30 seconds while the app is active, imports up to 365 days of history in one tap, and writes your logged data back to Health.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do I need a smart scale?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. You can <strong>manually enter</strong> any metric. If you do have a smart scale that syncs with Apple Health, Mindful Body can read those measurements via HealthKit automatically.</p>
                     </div>
                 </div>
             </div>

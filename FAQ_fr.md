@@ -1,89 +1,134 @@
 🇺🇸 [English](FAQ.md) | 🇩🇪 [Deutsch](FAQ_de.md) | 🇪🇸 [Español](FAQ_es.md) | 🇫🇷 **Français** | 🇯🇵 [日本語](FAQ_ja.md) | 🇨🇳 [中文](FAQ_zh-Hans.md)
 
-# Foire Aux Questions
+# Foire aux questions
 
 ## Général
 
 ### Qu'est-ce que Mindful Body ?
-Mindful Body est une app iOS pour suivre ta composition corporelle — poids, masse grasse, masse musculaire, circonférences et plus encore. Elle fournit des informations basées sur les données et un suivi de la progression pour t'aider à atteindre tes objectifs de santé.
+Mindful Body est une application iOS qui combine un tracker d'entraînement, un tracker d'habitudes et un tracker de composition corporelle dans un seul package axé sur la confidentialité. Crée des routines, suis tes habitudes quotidiennes, enregistre tes mesures et observe comment un seul nombre, ton Body Score, capture le tout.
 
 ### Mindful Body est-elle gratuite ?
-Mindful Body propose un essai gratuit de 7 jours. Ensuite, tu peux continuer avec un abonnement ou un achat à vie.
+Mindful Body propose un essai gratuit de 7 jours. Ensuite, tu peux continuer avec un abonnement mensuel ou annuel, ou avec un achat unique à vie.
 
-### Quels appareils sont pris en charge ?
-Mindful Body fonctionne sur iPhone, iPad et les Mac modernes via la compatibilité iPad avec iOS 17 ou version ultérieure.
+### Quels appareils sont compatibles ?
+Mindful Body fonctionne sur iPhone, iPad et Macs récents (via la compatibilité iPad) avec iOS 17 ou plus.
 
-### Dans quelles langues l'app est-elle disponible ?
-Mindful Body est entièrement localisée en 6 langues : anglais, allemand, espagnol, français, japonais et chinois simplifié.
+### Quelles langues l'app prend-elle en charge ?
+Mindful Body est entièrement localisée en 6 langues : anglais, allemand, espagnol, français, japonais et chinois (simplifié).
+
+## Entraînements
+
+### Comment fonctionnent les entraînements dans Mindful Body ?
+Crée des routines depuis une bibliothèque d'exercices ou pars de plans de studio. Quand tu t'entraînes, lance une session live et coche les séries une par une. L'app enregistre chaque série de travail pour que tu disposes d'un vrai historique.
+
+### C'est quoi la « progression intelligente » ?
+Après chaque session, Mindful Body regarde ta dernière performance et propose le prochain palier. L'incrément dépend de l'équipement : barre, machine et poulie avancent par 2,5 kg ; haltères et kettlebell par 1,0 kg ; poids du corps et cardio ne changent pas. La règle : si chaque série top a atteint la rep haute, on monte. Si chaque série top a touché la rep basse, on garde. Sinon, on déloade d'un cran.
+
+### Puis-je voir comment mon entraînement affecte ma compo corporelle ?
+Oui. L'onglet Tendances affiche des cross-insights de masse maigre liés à ton volume d'entraînement, pour voir comment le travail se traduit sur le corps, pas seulement sur la barre.
+
+### Mindful Body gère-t-elle les unités impériales en entraînement ?
+Oui. Bascule Métrique ou Impérial dans Réglages et les poids, la saisie des séries, les indications de la dernière session et les badges de volume basculent. Le stockage reste en kg en arrière-plan, ton historique reste cohérent si tu reviens en arrière.
+
+## Habitudes et séries
+
+### Comment fonctionnent les habitudes ?
+Les habitudes ont trois modes : Éviter (par ex. « Pas d'alcool »), Faire (par ex. « Marche quotidienne ») et Mesurer (par ex. « 10 000 pas »). Choisis parmi des modèles en nutrition, récupération, mouvement, mental et substances, ou crée les tiens.
+
+### Comment les streaks sont-ils comptés ?
+Chaque habitude a un streak qui récompense la régularité. Les faux pas ne te punissent pas pour toujours, le streak se réinitialise et tu repars.
+
+### Les habitudes peuvent-elles lire dans Apple Santé ?
+Oui. Le pont HealthKit peut récupérer pas, minutes de pleine conscience, crème solaire et d'autres métriques pour que les habitudes éligibles se mettent à jour automatiquement.
+
+## Body Score
+
+### Qu'est-ce que le Body Score ?
+Le Body Score est un seul nombre de 0 à 100 qui combine pourcentage de masse grasse (40 %), ratio tour de taille / taille (30 %) et indice de masse maigre (20 %). Quand la masse grasse manque, l'IMC prend le relais (30 %). Un bonus de tendance sur 30 jours apporte jusqu'à 10 %.
+
+### Le Body Score tient-il compte de l'âge et du sexe ?
+Oui. Le score est calibré sur Gallagher (2000) et les références AHA et s'ajuste en fonction de l'âge (18–39 base ; 40–59 +1 point pour idéal / +2 limite acceptable ; 60+ +3/+4) et du sexe biologique.
+
+### Pourquoi mon score n'est-il pas plus bas quand il manque des données ?
+C'est voulu. Les composants manquants réduisent le dénominateur au lieu de mettre le score à zéro. Tu n'es pas pénalisé parce que tu n'as pas encore de balance impédancemètre.
+
+### Que veulent dire les niveaux ?
+- 85+ Athlétique
+- 70–84 En bonne santé
+- 55–69 Moyen
+- 40–54 À surveiller
+- < 40 À risque
+
+Les libellés sont honnêtes, pas flatteurs. Ils sont là pour aider, pas pour vendre.
 
 ## Suivi
 
-### Quelles métriques puis-je enregistrer ?
+### Quelles métriques puis-je suivre ?
 - Poids (kg ou lbs)
 - Pourcentage de masse grasse
 - Pourcentage de masse musculaire
 - Niveau de graisse viscérale
-- Taux métabolique basal (TMB)
+- Métabolisme de base (BMR)
 - IMC (calculé automatiquement)
-- Circonférences : poitrine, taille, hanches, cou, bras et cuisses
+- Circonférences : poitrine, taille, hanches, cou, bras, cuisses
 
-### Ai-je besoin d'une balance intelligente ?
-Non. Tu peux saisir toutes les mesures manuellement. Cependant, si tu utilises une balance intelligente qui synchronise avec Apple Santé, Mindful Body peut importer ces données automatiquement.
+### Ai-je besoin d'une balance connectée ?
+Non. Tu peux saisir toutes les mesures manuellement. Si tu utilises une balance connectée qui écrit dans Apple Santé, Mindful Body importe automatiquement.
 
 ### Puis-je importer mes données de poids existantes ?
-Oui ! Mindful Body peut importer jusqu'à 365 jours d'historique de poids, masse grasse, masse maigre et tour de taille depuis Apple Santé en un seul tap.
+Oui. Mindful Body importe jusqu'à 365 jours de poids, masse grasse, masse maigre et tour de taille depuis Apple Santé en un seul toucher.
 
-## Suppléments
+## Compléments
 
-### Comment suivre mes suppléments ?
-Rends-toi dans la section « Suppléments » et crée tes propres suppléments (par ex. protéines, créatine, vitamines) avec une dose par défaut. Ensuite, tu peux enregistrer ta prise d'un simple tap ou saisir une quantité personnalisée.
+### Comment suivre les compléments ?
+Va dans la section Compléments, crée les tiens (protéine, créatine, vitamines) avec une dose par défaut. Note la prise en un toucher ou saisis une quantité personnalisée.
 
 ### Puis-je enregistrer plusieurs doses par jour ?
-Oui. Tu peux enregistrer plusieurs doses du même supplément au cours de la journée. L'app affiche le total journalier de chaque supplément sur le tableau de bord.
+Oui. Le tableau de bord affiche ta consommation totale par complément.
 
-### Les journaux de suppléments se synchronisent-ils via iCloud ?
-Oui. Les journaux de suppléments se synchronisent entre tes appareils via iCloud (CloudKit), tout comme les mesures et les objectifs.
+### Les journaux de compléments se synchronisent-ils via iCloud ?
+Oui. Ils se synchronisent via CloudKit, comme les mesures, entraînements, habitudes et objectifs.
 
 ### Puis-je définir quand prendre chaque complément ?
-Oui. Tu peux ajouter des indications comme « matin », « avant l'entraînement », « après l'entraînement » ou « avant de dormir » à chaque complément. Tu peux sélectionner plusieurs moments et aussi créer des entrées personnalisées. Elles s'affichent comme rappels dans la liste des compléments.
+Oui. Ajoute des indications comme « matin », « avant l'entraînement », « après l'entraînement » ou « avant le coucher ». Plusieurs horaires sont autorisés et tu peux ajouter des entrées personnalisées.
 
-### Puis-je créer des planifications pour mes suppléments ?
-Oui. Tu peux configurer les suppléments pour qu'ils reviennent tous les jours, certains jours, tous les N jours ou en cycles, par exemple X jours de prise et Y jours de pause. Tu peux aussi mettre un supplément en pause jusqu'à une date choisie. L'app indique si quelque chose est prévu aujourd'hui, déjà pris, non prévu aujourd'hui ou actuellement en pause.
+### Puis-je créer des plans de compléments ?
+Oui. Quotidien, jours spécifiques, tous les N jours ou cycles X jours on / Y jours off. Tu peux aussi mettre un complément en pause jusqu'à une date. L'app indique si quelque chose est dû aujourd'hui, déjà pris, non programmé ou en pause.
 
-## Photos de Progression
+## Photos de progression
 
 ### Mes photos de progression sont-elles privées ?
-Absolument. Les photos sont stockées dans le conteneur privé de l'app — elles n'apparaissent jamais dans ta photothèque ou ton pellicule. Tu peux également activer la protection par Face ID/code pour plus de confidentialité.
+Absolument. Les photos vivent dans le conteneur privé de l'app, jamais dans ta pellicule ou photothèque. La protection Face ID ou code ajoute une couche supplémentaire.
 
 ### Les photos de progression se synchronisent-elles entre appareils ?
-Oui, lorsque la synchronisation iCloud est activée, les photos se synchronisent en toute sécurité via CloudKit en tant qu'éléments chiffrés.
+Oui. Avec la sync iCloud activée, les photos se synchronisent en sécurité via CloudKit comme actifs chiffrés.
 
 ## Synchronisation iCloud
 
 ### Qu'est-ce qui se synchronise via iCloud ?
-Les mesures, les objectifs, les journaux de suppléments et les photos de progression se synchronisent via CloudKit sur iPhone, iPad et Mac modernes via la compatibilité iPad.
+Mesures, objectifs, entraînements, habitudes, journaux de compléments et photos de progression se synchronisent via CloudKit sur iPhone, iPad et Macs récents (via la compatibilité iPad).
 
 ### Qu'est-ce qui reste sur mon appareil ?
-Les paramètres, les préférences, les données HealthKit et le statut de l'abonnement restent en local.
+Réglages, préférences, données HealthKit et statut de l'abonnement restent locaux.
 
 ### Pourquoi dois-je redémarrer l'app après avoir activé iCloud ?
-La configuration de la base de données (locale ou cloud) est définie au lancement de l'app. Un redémarrage est nécessaire pour que le changement prenne effet.
+La configuration de la base de données (locale vs cloud) est définie au lancement. Un redémarrage applique le changement.
 
 ## Apple Santé
 
-### Quelles données Mindful Body lit-elle depuis Apple Santé ?
-Poids, pourcentage de masse grasse, IMC et masse corporelle maigre.
+### Quelles données Mindful Body lit-elle d'Apple Santé ?
+Poids, pourcentage de masse grasse, IMC, masse maigre, tour de taille, pas et minutes de pleine conscience (pour les habitudes).
 
 ### Quelles données Mindful Body écrit-elle dans Apple Santé ?
-Poids, masse grasse, IMC, masse corporelle maigre, tour de taille et dépense énergétique basale. Tu peux activer ou désactiver cela pour chaque mesure.
+Poids, masse grasse, IMC, masse maigre, tour de taille et énergie de base brûlée. Tu peux activer/désactiver par mesure.
 
 ## Support
 
 ### Comment contacter le support ?
-Tu peux nous contacter en [ouvrant un Issue sur GitHub](https://github.com/aloth/mindful-body/issues/new/choose) ou via l'option Contact dans les Réglages.
+[Ouvre un issue sur GitHub](https://github.com/aloth/mindful-body/issues/new/choose) ou utilise l'option Contact dans Réglages.
 
 ### Comment signaler un bug ?
-[Ouvre un rapport de bug sur GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml) avec une description du problème.
+[Ouvre un bug report sur GitHub](https://github.com/aloth/mindful-body/issues/new?template=bug_report.yml). Tu peux aussi utiliser « Signaler un bug » dans Réglages.
 
 ### Comment suggérer une fonctionnalité ?
-[Ouvre un Feature Request sur GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). Nous lisons chaque suggestion !
+[Ouvre une feature request sur GitHub](https://github.com/aloth/mindful-body/issues/new?template=feature_request.yml). Nous lisons chaque suggestion !

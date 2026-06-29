@@ -62,6 +62,8 @@
       "featureList": [
         "Workout routines and live sessions",
         "Smart, equipment-aware progression",
+        "Drop set suggestions with automatic stagnation detection",
+        "RIR (Reps in Reserve) badges per exercise",
         "Habit tracker with streaks (Avoid / Do It / Measure)",
         "Body Score (0–100), age and sex aware",
         "Body composition tracking (weight, body fat, muscle, BMR, visceral fat)",
@@ -71,7 +73,7 @@
         "Two-way Apple Health (HealthKit) integration",
         "iCloud (CloudKit) sync across devices",
         "Metric and imperial units",
-        "Localized in English, German, Spanish, French, Japanese, Chinese"
+        "Localized in English, German, Spanish, French, Japanese, Chinese, Italian, Korean, Norwegian, Portuguese, Swedish"
       ]
     }
     </script>
@@ -128,6 +130,30 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. iCloud / CloudKit syncs measurements, goals, workouts, habits, supplement logs and progress photos across iPhone, iPad and modern Macs via iPad compatibility, as long as you are signed into the same Apple ID."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are drop sets and how does Mindful Body use them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A drop set means finishing your last working set, immediately reducing the weight by about 20 percent, and repping to near failure without rest. It is a proven plateau-breaker for hypertrophy. Mindful Body detects when an exercise has stagnated at the same weight for multiple sessions and suggests a drop set with the exact reduced weight right inside your live workout session. Tap the suggestion and the drop set is added automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is RIR (Reps in Reserve) and how does the app use it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RIR stands for Reps in Reserve, meaning how many reps you could still do after finishing a set. RIR 2 means you stopped with two reps left. Lower RIR equals higher intensity and more stimulus for growth. Mindful Body lets you set a target RIR per exercise, suggests values based on movement type (compound vs isolation), and shows it as a color-coded badge during your workout."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does stagnation detection work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindful Body tracks your top working weight per exercise across sessions. When it detects you have been stuck at the same weight for multiple sessions in a row, it flags the exercise as stagnating and suggests a drop set to break through the plateau. The suggestion appears as a tappable chip in your workout alongside the existing smart progression system."
           }
         }
       ]
@@ -207,7 +233,13 @@
                 <div class="feature-card featured">
                     <div class="feature-icon">🏋️</div>
                     <h3 class="feature-title">Workouts That Grow With You</h3>
-                    <p class="feature-description">Build routines from a curated exercise library, run live sessions and check off sets one by one. Smart, equipment-aware progression suggests your next jump based on your last performance. Volume sparkline and lean-mass cross-insights tie training to body composition.</p>
+                    <p class="feature-description">Build routines from a curated exercise library, run live sessions and check off sets one by one. Smart, equipment-aware progression suggests your next jump based on your last performance. Drop set suggestions and RIR badges keep your intensity dialed in. Volume sparkline and lean-mass cross-insights tie training to body composition.</p>
+                </div>
+
+                <div class="feature-card featured">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Plateau Breakers</h3>
+                    <p class="feature-description">Stuck at the same weight? Stagnation detection spots plateaus automatically and suggests drop sets with pre-calculated weight (−20%). Set target RIR per exercise — color-coded badges show intensity at a glance. Tap a suggestion chip to apply it instantly.</p>
                 </div>
 
                 <div class="feature-card featured">

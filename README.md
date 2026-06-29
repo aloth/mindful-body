@@ -28,6 +28,9 @@ Most fitness apps make you choose: workout logger, habit tracker, or body-comp a
 - **Routines** — Build them from a curated exercise library or start from sample studio plans
 - **Live Sessions** — Run workouts and check off sets one by one
 - **Smart Progression** — Equipment-aware suggestions based on your last performance (barbell, dumbbell, machine, cable, kettlebell, bodyweight)
+- **Drop Sets** — Stagnation detected? The app suggests a drop set with −20 % weight, right in your session. Tap to add.
+- **RIR Badges** — Set target Reps in Reserve per exercise; a color-coded badge keeps intensity honest during your workout.
+- **Stagnation Detection** — Automatic plateau alerts when your top weight hasn't moved in multiple sessions.
 - **Volume Sparkline** — See training volume trends per exercise
 - **Lean-Mass Cross-Insights** — How your training tracks against body composition over time
 - **Metric or Imperial** — Switch any time, history stays consistent (storage in kg, display in your unit)

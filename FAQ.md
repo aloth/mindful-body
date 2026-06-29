@@ -14,7 +14,7 @@ Mindful Body offers a 7-day free trial. After that, you can continue with a mont
 Mindful Body runs on iPhone, iPad, and modern Macs (via iPad compatibility) with iOS 17 or later.
 
 ### What languages does the app support?
-Mindful Body is fully localized in 6 languages: English, German, Spanish, French, Japanese, and Chinese (Simplified).
+Mindful Body is fully localized in 11 languages: English, German, Spanish, French, Italian, Japanese, Korean, Norwegian, Portuguese (Brazilian), Swedish, and Chinese (Simplified).
 
 ## Workouts
 
@@ -121,6 +121,20 @@ Weight, body fat percentage, BMI, lean body mass, waist circumference, steps, an
 
 ### What data does Mindful Body write to Apple Health?
 Weight, body fat, BMI, lean body mass, waist circumference, and basal energy burned. You can toggle this per measurement.
+
+## Advanced Training
+
+### What are drop sets and how does Mindful Body use them?
+A drop set means finishing your last working set, immediately reducing the weight by about 20%, and repping to near failure without rest. It's a proven plateau-breaker for hypertrophy. Mindful Body detects when an exercise has stagnated (same weight for multiple sessions) and suggests a drop set with the exact reduced weight — right inside your live workout session. Tap the suggestion chip and the drop set is added automatically. You can also configure persistent drop sets per exercise in your routine settings.
+
+### What is RIR and why does it matter?
+RIR stands for Reps in Reserve — how many reps you could still do after finishing a set. RIR 2 means you stopped with two reps left in the tank. Lower RIR means higher intensity and more stimulus for growth. Mindful Body lets you set a target RIR per exercise (suggested automatically based on movement type) and shows it as a color-coded badge during your workout so you always know how hard to push: green for comfortable reserve, yellow for moderate, red for max effort.
+
+### How does stagnation detection work?
+Mindful Body tracks your top working weight per exercise across sessions. When it notices you've been stuck at the same weight for multiple sessions in a row, it flags the exercise as stagnating and suggests a drop set to break through the plateau. The suggestion appears as a tappable purple chip in your workout — tap it and the drop set is added with the pre-calculated weight. This works alongside the existing smart progression system (bump / hold / deload) and only appears when the progression engine confirms you're not ready to increase weight.
+
+### What's the difference between movement types (compound, isolation, isometric)?
+Compound exercises use multiple joints (squats, bench press, rows). Isolation exercises target a single muscle (bicep curls, leg extensions). Isometric exercises involve holding a position without movement (planks, wall sits). Mindful Body uses this classification to suggest appropriate rest times, RIR targets, and progression increments. You can set the movement type for custom exercises.
 
 ## Support
 

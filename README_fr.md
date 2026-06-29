@@ -28,6 +28,9 @@ La plupart des applis fitness te forcent à choisir : journal d'entraînement, t
 - **Routines** — Construis-les depuis une bibliothèque d'exercices ou pars de plans de studio
 - **Sessions live** — Lance des entraînements et coche les séries une par une
 - **Progression intelligente** — Suggestions selon l'équipement basées sur ta dernière performance (barre, haltères, machine, poulie, kettlebell, poids du corps)
+- **Drop Sets** — Stagnation détectée ? L’app te suggère un drop set à −20 % de poids, directement dans ta séance. Tape pour l’ajouter.
+- **Badges RIR** — Définis un RIR (Reps in Reserve) cible par exercice ; un badge coloré te rappelle l’intensité visée.
+- **Détection de stagnation** — Alertes automatiques quand ton poids max stagne sur plusieurs séances.
 - **Sparkline de volume** — Tendances de volume d'entraînement par exercice
 - **Cross-insights de masse maigre** — Comment ton entraînement se traduit dans la composition corporelle au fil du temps
 - **Métrique ou impérial** — Bascule à tout moment, l'historique reste cohérent (stockage en kg, affichage dans ton unité)

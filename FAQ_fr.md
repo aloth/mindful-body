@@ -122,6 +122,20 @@ Poids, pourcentage de masse grasse, IMC, masse maigre, tour de taille, pas et mi
 ### Quelles données Mindful Body écrit-elle dans Apple Santé ?
 Poids, masse grasse, IMC, masse maigre, tour de taille et énergie de base brûlée. Tu peux activer/désactiver par mesure.
 
+## Entraînement Avancé
+
+### Que sont les drop sets et comment Mindful Body les utilise-t-il ?
+Un drop set consiste à terminer ta dernière série de travail, réduire immédiatement le poids d’environ 20 % et continuer presque jusqu’à l’échec sans repos. C’est une technique éprouvée pour briser les plateaux en hypertrophie. Mindful Body détecte quand un exercice stagne (même poids sur plusieurs séances) et te propose un drop set avec le poids réduit exact directement dans ta séance. Touche la suggestion et le drop set est ajouté automatiquement. Tu peux aussi configurer des drop sets permanents par exercice dans ta routine.
+
+### Qu’est-ce que le RIR et pourquoi c’est important ?
+RIR signifie Reps in Reserve — combien de répétitions tu pourrais encore faire après ta série. RIR 2 signifie que tu t’es arrêté avec 2 répétitions en réserve. Un RIR plus bas = intensité plus élevée = plus de stimulus. Mindful Body te permet de définir un RIR cible par exercice (suggéré automatiquement selon le type de mouvement) et l’affiche sous forme de badge coloré pendant ton entraînement.
+
+### Comment fonctionne la détection de stagnation ?
+Mindful Body suit ton poids de travail maximal par exercice au fil des séances. Quand il détecte que tu es resté au même poids pendant plusieurs séances consécutives, il signale l’exercice comme stagnant et suggère un drop set pour franchir le plateau. La suggestion apparaît comme un chip tappable dans ton entraînement.
+
+### Quelle est la différence entre les types de mouvement (compound, isolation, isométrique) ?
+Les exercices compound utilisent plusieurs articulations (squats, développé couché, rowing). Les exercices d’isolation ciblent un seul muscle (curl biceps, extensions de jambes). Les exercices isométriques maintiennent une position sans mouvement (planches, wall sits). Mindful Body utilise cette classification pour suggérer des temps de repos, des objectifs RIR et des incréments de progression adaptés.
+
 ## Support
 
 ### Comment contacter le support ?

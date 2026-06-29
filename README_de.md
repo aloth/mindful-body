@@ -28,6 +28,9 @@ Die meisten Fitness-Apps zwingen dich zur Wahl: Workout-Logger, Gewohnheits-Trac
 - **Routinen** — Erstelle sie aus einer kuratierten Übungsbibliothek oder starte mit Studio-Vorlagen
 - **Live-Sessions** — Führe Workouts durch und hake Sätze einzeln ab
 - **Smarte Progression** — Geräte-bewusste Vorschläge basierend auf deiner letzten Leistung (Langhantel, Kurzhantel, Maschine, Kabel, Kettlebell, Eigengewicht)
+- **Drop Sets** — Stagnation erkannt? Die App schlägt dir einen Drop Set mit −20 % Gewicht vor — direkt im Workout. Tippen, fertig.
+- **RIR-Badges** — Ziel-RIR (Reps in Reserve) pro Übung festlegen; farbcodiertes Badge hält die Intensität im Blick.
+- **Stagnationserkennung** — Automatische Plateau-Warnungen wenn dein Topgewicht über mehrere Sessions gleich bleibt.
 - **Volumen-Sparkline** — Sieh Trainingsvolumen-Trends pro Übung
 - **Lean-Mass-Cross-Insights** — Wie sich dein Training über die Zeit auf die Körperzusammensetzung auswirkt
 - **Metrisch oder imperial** — Jederzeit umschalten, Verlauf bleibt konsistent (Speicherung in kg, Anzeige in deiner Einheit)

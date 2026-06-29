@@ -122,6 +122,20 @@ Gewicht, Körperfettanteil, BMI, Lean Body Mass, Taillenumfang, Schritte und Ach
 ### Welche Daten schreibt Mindful Body in Apple Health?
 Gewicht, Körperfett, BMI, Lean Body Mass, Taillenumfang und Grundumsatz. Du kannst dies pro Messung umschalten.
 
+## Fortgeschrittenes Training
+
+### Was sind Drop Sets und wie nutzt Mindful Body sie?
+Ein Drop Set bedeutet: letzten Arbeitssatz beenden, Gewicht sofort um ca. 20 % reduzieren und ohne Pause bis kurz vor Muskelversagen weitertrainieren. Das ist ein bewährter Plateau-Brecher für Hypertrophie. Mindful Body erkennt, wenn eine Übung stagniert (gleiches Gewicht über mehrere Sessions) und schlägt dir einen Drop Set mit dem exakt berechneten Gewicht vor — direkt im Workout. Tippe auf den Vorschlag und der Drop Set wird automatisch hinzugefügt. Du kannst Drop Sets auch dauerhaft pro Übung in deiner Routine konfigurieren.
+
+### Was ist RIR und warum ist es wichtig?
+RIR steht für Reps in Reserve — wie viele Wiederholungen du nach einem Satz noch schaffen könntest. RIR 2 bedeutet: du hast mit 2 Wiederholungen Reserve aufgehört. Niedrigerer RIR = höhere Intensität = mehr Wachstumsreiz. Mindful Body lässt dich pro Übung ein Ziel-RIR festlegen (automatisch vorgeschlagen je nach Bewegungstyp) und zeigt es als farbcodiertes Badge im Workout: Grün für komfortable Reserve, Gelb für moderat, Rot für maximale Anstrengung.
+
+### Wie funktioniert die Stagnationserkennung?
+Mindful Body verfolgt dein höchstes Arbeitsgewicht pro Übung über Sessions hinweg. Wenn es erkennt, dass du mehrere Sessions hintereinander beim gleichen Gewicht geblieben bist, markiert es die Übung als stagnierend und schlägt einen Drop Set vor. Der Vorschlag erscheint als antippbarer lila Chip im Workout — tippe drauf und der Drop Set wird mit dem vorberechneten Gewicht hinzugefügt.
+
+### Was ist der Unterschied zwischen Bewegungstypen (Compound, Isolation, Isometrisch)?
+Compound-Übungen nutzen mehrere Gelenke (Kniebeugen, Bankdrücken, Rudern). Isolationsübungen zielen auf einen einzelnen Muskel (Bizeps-Curls, Beinstrecker). Isometrische Übungen halten eine Position ohne Bewegung (Planks, Wall Sits). Mindful Body nutzt diese Klassifizierung für passende Pausenzeiten, RIR-Ziele und Progressions-Schritte.
+
 ## Support
 
 ### Wie kontaktiere ich den Support?

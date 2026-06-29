@@ -122,6 +122,20 @@ Peso, porcentaje de grasa corporal, IMC, masa magra, circunferencia de cintura, 
 ### ¿Qué datos escribe Mindful Body en Apple Health?
 Peso, grasa, IMC, masa magra, cintura y energía basal quemada. Puedes alternarlo por medición.
 
+## Entrenamiento Avanzado
+
+### ¿Qué son los drop sets y cómo los usa Mindful Body?
+Un drop set significa terminar tu última serie de trabajo, reducir el peso inmediatamente un 20% y seguir hasta casi el fallo sin descanso. Es un método probado para romper mesetas en hipertrofia. Mindful Body detecta cuando un ejercicio se ha estancado (mismo peso durante varias sesiones) y te sugiere un drop set con el peso exacto reducido directamente en tu sesión de entrenamiento. Toca la sugerencia y el drop set se añade automáticamente. También puedes configurar drop sets persistentes por ejercicio en tu rutina.
+
+### ¿Qué es RIR y por qué importa?
+RIR significa Reps in Reserve (repeticiones en reserva): cuántas repeticiones podrías hacer aún después de terminar una serie. RIR 2 significa que paraste con 2 repeticiones de sobra. Menor RIR = mayor intensidad = más estímulo. Mindful Body te permite establecer un RIR objetivo por ejercicio (sugerido automáticamente según el tipo de movimiento) y lo muestra como un badge con código de color durante tu entrenamiento.
+
+### ¿Cómo funciona la detección de estancamiento?
+Mindful Body rastrea tu peso máximo de trabajo por ejercicio a través de las sesiones. Cuando detecta que has estado con el mismo peso durante varias sesiones seguidas, marca el ejercicio como estancado y sugiere un drop set para superar la meseta. La sugerencia aparece como un chip tappable en tu entrenamiento.
+
+### ¿Cuál es la diferencia entre tipos de movimiento (compuesto, aislamiento, isométrico)?
+Los ejercicios compuestos usan múltiples articulaciones (sentadillas, press de banca, remo). Los de aislamiento trabajan un solo músculo (curl de bíceps, extensiones de pierna). Los isométricos mantienen una posición sin movimiento (planchas, wall sits). Mindful Body usa esta clasificación para sugerir tiempos de descanso, objetivos RIR e incrementos de progresión apropiados.
+
 ## Soporte
 
 ### ¿Cómo contacto con soporte?

@@ -28,6 +28,9 @@ La mayoría de las apps de fitness te obligan a elegir: registro de entrenamient
 - **Rutinas** — Constrúyelas desde una biblioteca curada de ejercicios o parte de planes de estudio
 - **Sesiones en vivo** — Ejecuta entrenamientos y marca series una a una
 - **Progresión inteligente** — Sugerencias según el equipo basadas en tu última actuación (barra, mancuernas, máquina, polea, kettlebell, peso corporal)
+- **Drop Sets** — ¿Estancamiento detectado? La app sugiere un drop set con −20 % de peso directamente en tu sesión. Toca para añadirlo.
+- **Badges RIR** — Establece RIR (Reps in Reserve) objetivo por ejercicio; un badge con código de color mantiene la intensidad bajo control.
+- **Detección de estancamiento** — Alertas automáticas de plateau cuando tu peso máximo no ha avanzado en varias sesiones.
 - **Sparkline de volumen** — Tendencias de volumen de entrenamiento por ejercicio
 - **Cross-insights de masa magra** — Cómo tu entrenamiento se refleja en la composición corporal con el tiempo
 - **Métrico o imperial** — Cambia cuando quieras, el historial se mantiene consistente (almacenamiento en kg, visualización en tu unidad)

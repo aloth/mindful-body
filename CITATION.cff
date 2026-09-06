@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Mindful Body: Train & Track"
+message: "If you use Mindful Body in your research, please cite it as below."
+type: software
+authors:
+  - family-names: Loth
+    given-names: Alexander
+    orcid: "https://orcid.org/0009-0003-9327-6865"
+version: "6.1.1"
+date-released: "2026-09-03"
+repository-code: "https://github.com/aloth/mindful-body"
+url: "https://apps.apple.com/app/id6760477510"
+abstract: >
+  An iOS workout and habit tracker with body-composition trends, HealthKit integration
+  and on-device analysis. All calculations run locally on the user's device.
+keywords:
+  - fitness
+  - workout tracking
+  - habit tracking
+  - body composition
+  - healthkit
+  - ios
+  - swiftui
